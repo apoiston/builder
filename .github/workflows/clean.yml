@@ -8,7 +8,7 @@ on:
 jobs:
   delete-deployments:
     name: Delete deployments
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
           
     steps:
       - name: Delete deployments
@@ -21,7 +21,7 @@ jobs:
 
   delete-releases:
     name: Delete releases
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: write
 
