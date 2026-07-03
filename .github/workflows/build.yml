@@ -106,7 +106,6 @@ jobs:
           name: packages
           path: |
             openwrt/builder-extra/
-            openwrt/builder-kmods/
             openwrt/builder-packages/
 
   deploy:
@@ -118,15 +117,9 @@ jobs:
       matrix:
         include:
           - directory: builder-extra
-            project_name: initextra
             branch: extra
             tag: EXTRA
-          - directory: builder-kmods
-            project_name: initkmods
-            branch: kmods
-            tag: KMODS
           - directory: builder-packages
-            project_name: initpackages
             branch: packages
             tag: PACKAGES
 
@@ -179,5 +172,5 @@ jobs:
         with:
           cloudflare_account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          project_name: initextra initkmods initpackages
+          project_name: initextra initpackages
           enable_delete_preview: true

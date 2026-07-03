@@ -58,5 +58,4 @@ jobs:
           path: |
             openwrt/builder/
             openwrt/builder-extra/
-            openwrt/builder-kmods/
             openwrt/builder-packages/
