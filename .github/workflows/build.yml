@@ -89,7 +89,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v3
         with:
-          name: OpenWrt SNAPSHOT ${{ steps.create_tag.outputs.tag }}
+          name: OpenWrt ${{ steps.create_tag.outputs.tag }}
           tag_name: ${{ steps.create_tag.outputs.tag }}
           body_path: openwrt/CHANGELOG.md
           files: |
