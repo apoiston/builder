@@ -46,7 +46,6 @@ jobs:
           prepare_environment: ${{ secrets.PREPARE_ENVIRONMENT }}
           prepare_config: ${{ secrets.PREPARE_CONFIG }}
           export_dist: ${{ secrets.EXPORT_DIST }}
-          config_buildinfo: builder/config.buildinfo
           enable_build_tools: ${{ inputs.enable_build_tools == true && 'true' || 'false' }}
           enable_build_kernel: ${{ inputs.enable_build_kernel == true && 'true' || 'false' }}
 
