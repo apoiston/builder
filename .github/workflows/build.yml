@@ -107,6 +107,8 @@ jobs:
             ${{ env.WORK_DIR }}/builder-extra/
             ${{ env.WORK_DIR }}/builder-luci/
             ${{ env.WORK_DIR }}/builder-packages/
+            ${{ env.WORK_DIR }}/builder-kmods/
+            ${{ env.WORK_DIR }}/builder-system/
 
   deploy:
     needs: build
@@ -128,6 +130,12 @@ jobs:
           - directory: builder-packages
             branch: packages
             tag: PACKAGES
+          - directory: builder-kmods
+            branch: kmods
+            tag: KMODS
+          - directory: builder-system
+            branch: system
+            tag: SYSTEM
 
     steps:
       - name: Set timezone
@@ -174,5 +182,5 @@ jobs:
         with:
           cloudflare_account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          project_name: initbase initextra initluci initpackages
+          project_name: initbase initextra initluci initpackages initkmods initsystem
           enable_delete_preview: true
