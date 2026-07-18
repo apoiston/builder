@@ -63,12 +63,12 @@ jobs:
       - name: Prepare
         continue-on-error: true
         run: |
-          rsync -a --quiet --include='*.buildinfo' --exclude='*' "$WORK_DIR/dist/" buildinfo/
+          rsync -a --quiet --include='*.buildinfo' --exclude='*' "$WORK_DIR/dist/" outputs/
 
       - name: Commit
         continue-on-error: true
         run: |
-          git add buildinfo/
+          git add outputs/
           git commit -m "$(date +"%Y-%m-%d %H:%M:%S %:z") [IMAGE]"
           git push origin main --force
 
