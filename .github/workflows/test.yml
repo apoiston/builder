@@ -19,6 +19,9 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-26.04
+    permissions:
+      actions: write
+      contents: write
 
     steps:
       - name: Set timezone
@@ -48,6 +51,31 @@ jobs:
           export_dist: ${{ secrets.EXPORT_DIST }}
           enable_build_tools: ${{ inputs.enable_build_tools == true && 'true' || 'false' }}
           enable_build_kernel: ${{ inputs.enable_build_kernel == true && 'true' || 'false' }}
+
+      - name: Create tag
+        id: create_tag
+        run: |
+          TAG="preview"
+          if git ls-remote --tags origin "$TAG" | grep -q "$TAG"; then
+            git push origin --delete "$TAG" || true
+          fi
+          git tag -d "$TAG" 2>/dev/null || true
+          git tag "$TAG"
+          git push origin "$TAG"
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Release
+        uses: softprops/action-gh-release@v3
+        with:
+          name: Preview
+          tag_name: ${{ steps.create_tag.outputs.tag }}
+          body_path: ${{ env.WORK_DIR }}/CHANGELOG.md
+          files: |
+            ${{ env.WORK_DIR }}/dist/*.gz
+            ${{ env.WORK_DIR }}/dist/*.txt
+          make_latest: false
+          draft: false
+          prerelease: true
 
       - name: Upload
         uses: actions/upload-artifact@v7
