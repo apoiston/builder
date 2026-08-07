@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "architecture": "x86_64",
+  "packages": {
+    "luci-app-nikki": "1.26.1-r1",
+    "luci-i18n-nikki-zh-cn": "26.216.33425~388f34e",
+    "mihomo-alpha": "2026.08.07~1af24e9",
+    "mihomo-meta": "1.19.29",
+    "nikki": "2026.04.08-r1"
+  }
+}
