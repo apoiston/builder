@@ -188,6 +188,7 @@ CONFIG_PACKAGE_luci-proto-ipv6=y
 CONFIG_PACKAGE_luci-proto-ppp=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
 CONFIG_PACKAGE_mihomo-alpha=y
+CONFIG_PACKAGE_mihomo-meta=m
 CONFIG_PACKAGE_nfs-kernel-server-utils=y
 CONFIG_PACKAGE_nfs-kernel-server-v4=y
 CONFIG_PACKAGE_nfs-utils-v4=y
