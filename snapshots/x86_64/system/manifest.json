@@ -1,0 +1,357 @@
+{
+  "packages": [
+    {
+      "name": "base-files",
+      "version": "1705~2991205555",
+      "hashes": "13296fcea67c1d2e3fdd2884b7cf98445d8b90576c6b9c46391851b0c21622c0",
+      "description": "This package contains a base filesystem and system scripts for OpenWrt.",
+      "arch": "x86_64",
+      "license": "GPL-2.0",
+      "origin": "feeds/base/base-files",
+      "url": "https://openwrt.org/",
+      "installed-size": 185590,
+      "file-size": 61868,
+      "depends": [
+        "busybox",
+        "fstools",
+        "fwtool",
+        "jsonfilter",
+        "libc",
+        "netifd",
+        "openwrt-keyring",
+        "procd",
+        "procd-seccomp",
+        "ucode",
+        "ucode-mod-digest",
+        "ucode-mod-fs",
+        "usign"
+      ],
+      "provides": [
+        "base-files-any"
+      ],
+      "tags": [
+        "openwrt:section=base"
+      ]
+    }, {
+      "name": "block-mount",
+      "version": "2026.07.25~2aa16407-r1",
+      "hashes": "df2a518773dd0bfe54ec12b1e4ec34fc6ae2dd8cbfea64e7b8c7e3ba74853770",
+      "description": "Block device mounting and checking",
+      "arch": "x86_64",
+      "license": "GPL-2.0",
+      "origin": "feeds/base/system/fstools",
+      "maintainer": "John Crispin <john@phrozen.org>",
+      "installed-size": 50885,
+      "file-size": 23918,
+      "depends": [
+        "libblobmsg-json20260708",
+        "libc",
+        "libjson-c5",
+        "libubox20260708",
+        "libuci20250120",
+        "ubox"
+      ],
+      "provides": [
+        "block-mount-any"
+      ],
+      "tags": [
+        "openwrt:section=base"
+      ]
+    }, {
+      "name": "dropbear",
+      "version": "2026.94-r1",
+      "hashes": "e349b4b3fa07f43ffb2c8e1c6e99706393d4fb2109e16be01f4f05b0c1651cd1",
+      "description": "A small SSH2 server/client designed for small memory environments.",
+      "arch": "x86_64",
+      "license": "MIT",
+      "origin": "feeds/base/network/services/dropbear",
+      "url": "https://matt.ucc.asn.au/dropbear/",
+      "installed-size": 316431,
+      "file-size": 165760,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "dropbear-any"
+      ],
+      "tags": [
+        "openwrt:section=net",
+        "openwrt:cpe=cpe:/a:dropbear_ssh_project:dropbear_ssh"
+      ]
+    }, {
+      "name": "fstools",
+      "version": "2026.07.25~2aa16407-r1",
+      "hashes": "46307e1fe8d24be01e1bf4aeab9017baa1216376bda739cf8731034ffb9f96b0",
+      "description": "OpenWrt filesystem tools",
+      "arch": "x86_64",
+      "license": "GPL-2.0",
+      "origin": "feeds/base/system/fstools",
+      "maintainer": "John Crispin <john@phrozen.org>",
+      "installed-size": 43264,
+      "file-size": 19322,
+      "depends": [
+        "libc",
+        "ubox"
+      ],
+      "provides": [
+        "fstools-any"
+      ],
+      "tags": [
+        "openwrt:section=base"
+      ]
+    }, {
+      "name": "fwtool",
+      "version": "2025.10.03~04cd252e-r1",
+      "hashes": "1e5875b8f95c740ad307b2d7449d4caef386613a73f302163f45f525d238d758",
+      "description": "Utility for appending and extracting firmware metadata and signatures",
+      "arch": "x86_64",
+      "license": "GPL-2.0",
+      "origin": "feeds/base/system/fwtool",
+      "maintainer": "Felix Fietkau <nbd@nbd.name>",
+      "installed-size": 9092,
+      "file-size": 5097,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "fwtool-any"
+      ],
+      "tags": [
+        "openwrt:section=utils"
+      ]
+    }, {
+      "name": "grub2",
+      "version": "2.12-r1",
+      "hashes": "f6a190552a516cb41134c9374058a4171a55942b59fdf90da69620e55d643a01",
+      "description": "GRand Unified Bootloader (pc)",
+      "arch": "x86_64",
+      "license": "GPL-3.0-or-later",
+      "origin": "feeds/base/boot/grub2",
+      "url": "https://www.gnu.org/software/grub/",
+      "installed-size": 1,
+      "file-size": 751,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "grub2-any"
+      ],
+      "tags": [
+        "openwrt:section=boot",
+        "openwrt:cpe=cpe:/a:gnu:grub2"
+      ]
+    }, {
+      "name": "grub2-bios-setup",
+      "version": "2.12-r1",
+      "hashes": "6dea074c75b80a95f9a17c42db3f7a3deafaf46941a16e00e726865c23d39698",
+      "description": "Set up images to bootable.",
+      "arch": "x86_64",
+      "license": "GPL-3.0-or-later",
+      "origin": "feeds/base/boot/grub2",
+      "url": "https://www.gnu.org/software/grub/",
+      "installed-size": 982081,
+      "file-size": 466572,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "grub2-bios-setup-any"
+      ],
+      "tags": [
+        "openwrt:section=utils",
+        "openwrt:cpe=cpe:/a:gnu:grub2"
+      ]
+    }, {
+      "name": "grub2-efi",
+      "version": "2.12-r1",
+      "hashes": "134675f2ae8f72c5e7475430337977e3a9795e68c7b50c1b41f66e6932f44391",
+      "description": "GRand Unified Bootloader (efi)",
+      "arch": "x86_64",
+      "license": "GPL-3.0-or-later",
+      "origin": "feeds/base/boot/grub2",
+      "url": "https://www.gnu.org/software/grub/",
+      "installed-size": 1,
+      "file-size": 754,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "grub2-efi-any"
+      ],
+      "tags": [
+        "openwrt:section=boot",
+        "openwrt:cpe=cpe:/a:gnu:grub2"
+      ]
+    }, {
+      "name": "kernel",
+      "version": "6.18.43~e93197334912565bb797fbd1641e4285-r1",
+      "hashes": "5ba879ea212f8db40c79082c492e64200323c4592ae3a20e767f84d66961cfef",
+      "description": "Virtual kernel package",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "url": "https://www.kernel.org/",
+      "installed-size": 17264,
+      "file-size": 5273,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "kernel-any"
+      ],
+      "tags": [
+        "openwrt:section=sys",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "libatomic1",
+      "version": "16.1.0-r5",
+      "hashes": "f6f483e208f3928008d456b8e26d905d141d68d8d8b158ddb6a1b894050b81c6",
+      "description": "Atomic support library",
+      "arch": "x86_64",
+      "license": "GPL-3.0-with-GCC-exception",
+      "origin": "feeds/base/libs/toolchain",
+      "maintainer": "Felix Fietkau <nbd@nbd.name>",
+      "url": "https://gcc.gnu.org/",
+      "installed-size": 24628,
+      "file-size": 7685,
+      "provider-priority": 10,
+      "depends": [
+        "libgcc1"
+      ],
+      "provides": [
+        "libatomic",
+        "libatomic-any"
+      ],
+      "tags": [
+        "openwrt:abiversion=1",
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "libc",
+      "version": "1.2.6-r5",
+      "hashes": "fe4b4b1a14d17375fb15763941945219e5728a3aa03372a1723caa6196d1692b",
+      "description": "C library",
+      "arch": "x86_64",
+      "license": "GPL-3.0-with-GCC-exception",
+      "origin": "feeds/base/libs/toolchain",
+      "maintainer": "Felix Fietkau <nbd@nbd.name>",
+      "url": "http://www.musl-libc.org/",
+      "installed-size": 545847,
+      "file-size": 294036,
+      "depends": [
+        "libgcc1"
+      ],
+      "provides": [
+        "libc-any"
+      ],
+      "tags": [
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "libgcc1",
+      "version": "16.1.0-r5",
+      "hashes": "0898f5205e7312d8aa1a47413b1357c9e1c36ac873b6c1c4643ed57f6a0bde1b",
+      "description": "GCC support library",
+      "arch": "x86_64",
+      "license": "GPL-3.0-with-GCC-exception",
+      "origin": "feeds/base/libs/toolchain",
+      "maintainer": "Felix Fietkau <nbd@nbd.name>",
+      "url": "https://gcc.gnu.org/",
+      "installed-size": 114723,
+      "file-size": 53064,
+      "provider-priority": 10,
+      "provides": [
+        "libgcc",
+        "libgcc-any"
+      ],
+      "tags": [
+        "openwrt:abiversion=1",
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "libpthread",
+      "version": "1.2.6-r5",
+      "hashes": "8637c9df4d56890dc9f6c5992e8f85b545244afb27580f21e9fc31b66c267104",
+      "description": "POSIX thread library",
+      "arch": "x86_64",
+      "license": "GPL-3.0-with-GCC-exception",
+      "origin": "feeds/base/libs/toolchain",
+      "maintainer": "Felix Fietkau <nbd@nbd.name>",
+      "url": "http://www.musl-libc.org/",
+      "installed-size": 1,
+      "file-size": 760,
+      "depends": [
+        "libgcc1"
+      ],
+      "provides": [
+        "libpthread-any"
+      ],
+      "tags": [
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "librt",
+      "version": "1.2.6-r5",
+      "hashes": "6fa69e8a8d1c321faa5325db9a60edffa10e834f1e4833d9ba4816ca25ffd754",
+      "description": "POSIX.1b RealTime extension library",
+      "arch": "x86_64",
+      "license": "GPL-3.0-with-GCC-exception",
+      "origin": "feeds/base/libs/toolchain",
+      "maintainer": "Felix Fietkau <nbd@nbd.name>",
+      "url": "http://www.musl-libc.org/",
+      "installed-size": 1,
+      "file-size": 764,
+      "depends": [
+        "libpthread"
+      ],
+      "provides": [
+        "librt-any"
+      ],
+      "tags": [
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "libstdcpp6",
+      "version": "16.1.0-r5",
+      "hashes": "c2baf511f220de6dc59255e7bdec9181907ef8302fe7be26da39d59c754f200a",
+      "description": "GNU Standard C++ Library v3",
+      "arch": "x86_64",
+      "license": "GPL-3.0-with-GCC-exception",
+      "origin": "feeds/base/libs/toolchain",
+      "maintainer": "Felix Fietkau <nbd@nbd.name>",
+      "url": "https://gcc.gnu.org/",
+      "installed-size": 2085405,
+      "file-size": 710083,
+      "provider-priority": 10,
+      "provides": [
+        "libstdcpp",
+        "libstdcpp-any"
+      ],
+      "tags": [
+        "openwrt:abiversion=6",
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "mtd",
+      "version": "28",
+      "hashes": "05cf63e0dfed290ac82e05772e5888670bd56cd4b217a192e2b605c2cacf485c",
+      "description": "This package contains an utility useful to upgrade from other firmware or older OpenWrt releases.",
+      "arch": "x86_64",
+      "license": "GPL-2.0+",
+      "origin": "feeds/base/system/mtd",
+      "installed-size": 26890,
+      "file-size": 14084,
+      "depends": [
+        "libc",
+        "libubox20260708"
+      ],
+      "provides": [
+        "mtd-any"
+      ],
+      "tags": [
+        "openwrt:section=utils"
+      ]
+    }
+  ]
+}
