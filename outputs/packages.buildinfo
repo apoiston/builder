@@ -1,10 +1,10 @@
 apk-mbedtls - 3.0.5-r3
 attr - 2.5.2-r3
-base-files - 1706~c84523a6b6
+base-files - 1706~d329a480a0
 bash - 5.3-r4
 blkid - 2.42.2-r1
 block-mount - 2026.07.25~2aa16407-r1
-bnx2-firmware - 20260622-r2
+bnx2-firmware - 20260810-r1
 busybox - 1.38.0-r2
 ca-bundle - 20260601-r1
 cfdisk - 2.42.2-r1
@@ -25,7 +25,7 @@ grub2 - 2.12-r1
 grub2-bios-setup - 2.12-r1
 grub2-efi - 2.12-r1
 htop - 3.5.1-r1
-i915-firmware-dmc - 20260622-r2
+i915-firmware-dmc - 20260810-r1
 ip-full - 6.18.0-r2
 jansson4 - 2.15.0-r1
 jshn - 2026.07.21~e7608b69-r1
@@ -220,7 +220,7 @@ luci-app-package-manager - 26.225.36130~c62742f
 luci-base - 26.225.36130~c62742f
 luci-i18n-base-zh-cn - 26.225.36130~c62742f
 luci-i18n-firewall-zh-cn - 26.225.36130~c62742f
-luci-i18n-nikki-zh-cn - 26.216.33425~388f34e
+luci-i18n-nikki-zh-cn - 26.226.20072~8aaa68c
 luci-i18n-package-manager-zh-cn - 26.225.36130~c62742f
 luci-lib-uqr - 26.225.36130~c62742f
 luci-mod-admin-full - 26.225.36130~c62742f
@@ -231,7 +231,7 @@ luci-nginx - 26.225.36130~c62742f
 luci-proto-ipv6 - 26.225.36130~c62742f
 luci-proto-ppp - 26.225.36130~c62742f
 luci-theme-bootstrap - 26.225.36130~c62742f
-mihomo-alpha - 2026.08.13~3cac869
+mihomo-alpha - 2026.08.14~3c70e67
 mkf2fs - 1.16.0-r4
 mtd - 28
 netifd - 2026.07.08~6088f7b3-r2
@@ -260,7 +260,7 @@ ppp-mod-pppoe - 2.5.3-r2
 procd - 2026.06.17~60fdbf00-r1
 procd-seccomp - 2026.06.17~60fdbf00-r1
 procd-ujail - 2026.06.17~60fdbf00-r1
-r8169-firmware - 20260622-r2
+r8169-firmware - 20260810-r1
 rpcbind - 1.2.6-r2
 rpcd - 2026.07.19~e37ed9d8-r1
 rpcd-mod-file - 2026.07.19~e37ed9d8-r1
