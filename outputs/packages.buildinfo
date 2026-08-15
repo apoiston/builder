@@ -1,12 +1,14 @@
 apk-mbedtls - 3.0.5-r3
 attr - 2.5.2-r3
-base-files - 1706~d329a480a0
+base-files - 1706~964c05aee9
 bash - 5.3-r4
 blkid - 2.42.2-r1
 block-mount - 2026.07.25~2aa16407-r1
 bnx2-firmware - 20260810-r1
 busybox - 1.38.0-r2
 ca-bundle - 20260601-r1
+ca-certificates - 20260601-r1
+caddy - 2.11.4-r1
 cfdisk - 2.42.2-r1
 cgi-io - 2026.07.21~31cb3c89-r1
 curl - 8.21.0-r1
@@ -231,7 +233,7 @@ luci-nginx - 26.225.36130~c62742f
 luci-proto-ipv6 - 26.225.36130~c62742f
 luci-proto-ppp - 26.225.36130~c62742f
 luci-theme-bootstrap - 26.225.36130~c62742f
-mihomo-alpha - 2026.08.14~3c70e67
+mihomo-alpha - 2026.08.15~7259bbb
 mkf2fs - 1.16.0-r4
 mtd - 28
 netifd - 2026.07.08~6088f7b3-r2
