@@ -1,6 +1,6 @@
 apk-mbedtls - 3.0.5-r3
 attr - 2.5.2-r3
-base-files - 1706~aa66786f38
+base-files - 1706~3809dfe5c6
 bash - 5.3-r4
 blkid - 2.42.2-r1
 block-mount - 2026.07.25~2aa16407-r1
@@ -222,7 +222,7 @@ luci-app-package-manager - 26.245.64121~506ca60
 luci-base - 26.245.64121~506ca60
 luci-i18n-base-zh-cn - 26.245.64121~506ca60
 luci-i18n-firewall-zh-cn - 26.245.64121~506ca60
-luci-i18n-nikki-zh-cn - 26.229.26985~3799926
+luci-i18n-nikki-zh-cn - 26.247.58803~03c3e69
 luci-i18n-package-manager-zh-cn - 26.245.64121~506ca60
 luci-lib-uqr - 26.245.64121~506ca60
 luci-mod-admin-full - 26.245.64121~506ca60
@@ -233,7 +233,7 @@ luci-nginx - 26.245.64121~506ca60
 luci-proto-ipv6 - 26.245.64121~506ca60
 luci-proto-ppp - 26.245.64121~506ca60
 luci-theme-bootstrap - 26.245.64121~506ca60
-mihomo-alpha - 2026.09.03~810b014
+mihomo-alpha - 2026.09.04~0159cf4
 mkf2fs - 1.16.0-r4
 mtd - 28
 netifd - 2026.07.08~6088f7b3-r2
