@@ -1,0 +1,472 @@
+{
+  "packages": [
+    {
+      "name": "liblucihttp-ucode",
+      "version": "2023.03.15~9b5b683f-r1",
+      "hashes": "f5710c420d0eda4643fefb66593ec939b21f2922371527492414853dc7698402",
+      "description": "ucode binding for the LuCI HTTP utility library",
+      "arch": "x86_64",
+      "license": "ISC",
+      "origin": "feeds/luci/feeds/luci/contrib/package/lucihttp",
+      "maintainer": "Jo-Philipp Wich <jo@mein.io>",
+      "installed-size": 10019,
+      "file-size": 4600,
+      "depends": [
+        "libc",
+        "liblucihttp0",
+        "libucode20230711"
+      ],
+      "provides": [
+        "liblucihttp-ucode-any"
+      ],
+      "tags": [
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "liblucihttp0",
+      "version": "2023.03.15~9b5b683f-r1",
+      "hashes": "5ef83a79ad492e9539ddd3067b98cacfcb0a3e33481d92d2fc967c136121cd55",
+      "description": "LuCI HTTP utility library",
+      "arch": "x86_64",
+      "license": "ISC",
+      "origin": "feeds/luci/feeds/luci/contrib/package/lucihttp",
+      "maintainer": "Jo-Philipp Wich <jo@mein.io>",
+      "installed-size": 15038,
+      "file-size": 8565,
+      "provider-priority": 10,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "liblucihttp",
+        "liblucihttp-any"
+      ],
+      "tags": [
+        "openwrt:abiversion=0",
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "luci-app-firewall",
+      "version": "26.248.54994~6238255",
+      "hashes": "05c5bdeae33d45f8fdd72e605eb7d0f93dc8c7de245aa1cb028370f7b6c0a14a",
+      "description": "Firewall and port forwarding application",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/applications/luci-app-firewall",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 78197,
+      "file-size": 18874,
+      "depends": [
+        "libc",
+        "luci-base",
+        "uci-firewall"
+      ],
+      "provides": [
+        "luci-app-firewall-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-app-package-manager",
+      "version": "26.248.54994~6238255",
+      "hashes": "54835514077d3f9d78d1dc0a674a7526ccb029e505a409fdd7cddc344145ef9c",
+      "description": "Package management application",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/applications/luci-app-package-manager",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 35192,
+      "file-size": 11287,
+      "depends": [
+        "libc",
+        "luci-base"
+      ],
+      "provides": [
+        "luci-app-opkg=26.248.54994~6238255",
+        "luci-app-package-manager-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-base",
+      "version": "26.248.54994~6238255",
+      "hashes": "cd11a5a03ceb9883174afe63d93f6d988bd6945cfec155ddb396d5e4bd798e8d",
+      "description": "LuCI core runtime",
+      "arch": "x86_64",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/modules/luci-base",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 764200,
+      "file-size": 164190,
+      "depends": [
+        "cgi-io",
+        "libc",
+        "liblucihttp-ucode",
+        "rpcd",
+        "rpcd-mod-file",
+        "rpcd-mod-luci",
+        "rpcd-mod-ucode",
+        "ucode>=2026.02.27",
+        "ucode-mod-fs",
+        "ucode-mod-html",
+        "ucode-mod-log",
+        "ucode-mod-ubus",
+        "ucode-mod-uci"
+      ],
+      "provides": [
+        "luci-base-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-i18n-base-zh-cn",
+      "version": "26.248.54994~6238255",
+      "hashes": "6754bb96f94d6775e7807890e5ed4717b6117d0fd8fd55e45a89450959593d85",
+      "description": "Translation for luci-base - 简体中文 (Simplified Chinese)",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/modules/luci-base",
+      "installed-size": 162019,
+      "file-size": 73164,
+      "depends": [
+        "libc",
+        "luci-base"
+      ],
+      "provides": [
+        "luci-i18n-base-zh-cn-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-i18n-firewall-zh-cn",
+      "version": "26.248.54994~6238255",
+      "hashes": "fef836bb01fa687ee12f8dcbb822694028b2ee1925098213bada053a589f6aff",
+      "description": "Translation for luci-app-firewall - 简体中文 (Simplified Chinese)",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/applications/luci-app-firewall",
+      "maintainer": "Jo-Philipp Wich <jo@mein.io>",
+      "installed-size": 19127,
+      "file-size": 8637,
+      "depends": [
+        "libc",
+        "luci-app-firewall"
+      ],
+      "provides": [
+        "luci-i18n-firewall-zh-cn-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-i18n-package-manager-zh-cn",
+      "version": "26.248.54994~6238255",
+      "hashes": "7088c99b8910fe06c2b50369efd661c1a06a93eed6d07f0a53dee47ac25aab68",
+      "description": "Translation for luci-app-package-manager - 简体中文 (Simplified Chinese)",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/applications/luci-app-package-manager",
+      "maintainer": "Jo-Philipp Wich <jo@mein.io>",
+      "installed-size": 4041,
+      "file-size": 3122,
+      "depends": [
+        "libc",
+        "luci-app-package-manager"
+      ],
+      "provides": [
+        "luci-i18n-package-manager-zh-cn-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-lib-uqr",
+      "version": "26.248.54994~6238255",
+      "hashes": "21147b27b0df1141c5da903030c19c58f25096aa95996e9d4a5434a049cf9361",
+      "description": "µQR - micro QR: SVG QRcode generator JS library",
+      "arch": "noarch",
+      "license": "MIT",
+      "origin": "feeds/luci/feeds/luci/libs/luci-lib-uqr",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 12736,
+      "file-size": 5591,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "luci-lib-uqr-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-mod-admin-full",
+      "version": "26.248.54994~6238255",
+      "hashes": "b8070b3f2f5d749b643187d308208730803ca4126cec5174a402c99815cfff92",
+      "description": "LuCI Administration - full-featured for full control",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/modules/luci-mod-admin-full",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 1,
+      "file-size": 925,
+      "depends": [
+        "libc",
+        "luci-base",
+        "luci-mod-network",
+        "luci-mod-status",
+        "luci-mod-system"
+      ],
+      "provides": [
+        "luci-mod-admin-full-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-mod-network",
+      "version": "26.248.54994~6238255",
+      "hashes": "e3345e874b377e8125cebc79efcb2cd6e628d0e24c5507c48739d3445db7287a",
+      "description": "LuCI Network Administration",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/modules/luci-mod-network",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 334866,
+      "file-size": 87293,
+      "depends": [
+        "libc",
+        "luci-base",
+        "luci-lib-uqr",
+        "rpcd-mod-iwinfo"
+      ],
+      "provides": [
+        "luci-mod-network-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-mod-status",
+      "version": "26.248.54994~6238255",
+      "hashes": "ef36241b8e3c770a160fbf057d4b85e877d8b511cd74a8506f16085dc830ec1e",
+      "description": "LuCI Status Pages",
+      "arch": "x86_64",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/modules/luci-mod-status",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 176698,
+      "file-size": 46906,
+      "depends": [
+        "libc",
+        "libiwinfo20230701",
+        "luci-base",
+        "rpcd-mod-iwinfo",
+        "ucode>=2026.02.27"
+      ],
+      "provides": [
+        "luci-mod-status-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-mod-system",
+      "version": "26.248.54994~6238255",
+      "hashes": "f6c25422a6ba0204962bc4d539f1733f8187a536d5cb22e23db8a9a33477702b",
+      "description": "LuCI Administration - Global System Settings",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/modules/luci-mod-system",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 79806,
+      "file-size": 23695,
+      "depends": [
+        "libc",
+        "luci-base"
+      ],
+      "provides": [
+        "luci-mod-system-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-nginx",
+      "version": "26.248.54994~6238255",
+      "hashes": "ebafe8c617ad2de9071d5935933e6198d9bce035773b92c8d87b1bbc2efcf030",
+      "description": "Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/collections/luci-nginx",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 1,
+      "file-size": 1041,
+      "depends": [
+        "libc",
+        "luci-app-firewall",
+        "luci-app-package-manager",
+        "luci-mod-admin-full",
+        "luci-proto-ipv6",
+        "luci-proto-ppp",
+        "luci-theme-bootstrap",
+        "nginx",
+        "nginx-mod-luci",
+        "rpcd-mod-rrdns"
+      ],
+      "provides": [
+        "luci-nginx-any",
+        "luci-ssl-nginx=26.248.54994~6238255"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-proto-ipv6",
+      "version": "26.248.54994~6238255",
+      "hashes": "5353b598fbcbec398f05f3078d9a2dbd39fb9a8ba68570077844cadb6daa2837",
+      "description": "Support for DHCPv6/6in4/6to4/6rd/DS-Lite/IPIP6",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/protocols/luci-proto-ipv6",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 15289,
+      "file-size": 4383,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "luci-proto-ipv6-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-proto-ppp",
+      "version": "26.248.54994~6238255",
+      "hashes": "563bfc35c4b759d485add7817b4cbe9c86c3b7f66f94a1ea2a1f3984e4a2d3fd",
+      "description": "Support for PPP/PPPoE/PPPoA/PPtP",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/protocols/luci-proto-ppp",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 15991,
+      "file-size": 3425,
+      "depends": [
+        "libc"
+      ],
+      "provides": [
+        "luci-proto-ppp-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-theme-bootstrap",
+      "version": "26.248.54994~6238255",
+      "hashes": "6d3eb6c0f22a1754b94c9a3ea1b47a01f994f51a73bb398ba6c0087d655588f7",
+      "description": "Bootstrap Theme (default)",
+      "arch": "noarch",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/themes/luci-theme-bootstrap",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 67014,
+      "file-size": 20730,
+      "depends": [
+        "libc",
+        "luci-base",
+        "ucode>=2026.02.27"
+      ],
+      "provides": [
+        "luci-theme-bootstrap-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "rpcd-mod-luci",
+      "version": "20240305-r1",
+      "hashes": "dcf5d3bc328adac7305d9b8d7d72d7a489aedfc125e36d16c0ba7c59134848e1",
+      "description": "Provides LuCI backend ubus RPC operations.",
+      "arch": "x86_64",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/libs/rpcd-mod-luci",
+      "maintainer": "Jo-Philipp Wich <jo@mein.io>",
+      "installed-size": 28558,
+      "file-size": 14631,
+      "depends": [
+        "libc",
+        "libnl-tiny1",
+        "libubox20260721",
+        "libubus20260628",
+        "rpcd"
+      ],
+      "provides": [
+        "rpcd-mod-luci-any"
+      ],
+      "tags": [
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "rpcd-mod-rrdns",
+      "version": "20170710",
+      "hashes": "fe0f3dddadcbd0858e80362e7b5d497b53e9d90b371071e7682d1542292a0225",
+      "description": "Provides rapid mass reverse DNS lookup functionality.",
+      "arch": "x86_64",
+      "license": "Apache-2.0",
+      "origin": "feeds/luci/feeds/luci/libs/rpcd-mod-rrdns",
+      "maintainer": "Jo-Philipp Wich <jo@mein.io>",
+      "installed-size": 8303,
+      "file-size": 4368,
+      "depends": [
+        "libc",
+        "libubox20260721",
+        "libubus20260628",
+        "rpcd"
+      ],
+      "provides": [
+        "rpcd-mod-rrdns-any"
+      ],
+      "tags": [
+        "openwrt:section=libs"
+      ]
+    }, {
+      "name": "ucode-mod-html",
+      "version": "1",
+      "hashes": "293c442fa6ee0650f693e9c21cdd89ede3f51932ec66f2d0cbd681f288f6b3b3",
+      "description": "ucode HTML utility library",
+      "arch": "x86_64",
+      "license": "ISC",
+      "origin": "feeds/luci/feeds/luci/contrib/package/ucode-mod-html",
+      "maintainer": "Jo-Philipp Wich <jo@mein.io>",
+      "installed-size": 62567,
+      "file-size": 26593,
+      "depends": [
+        "libc",
+        "libucode20230711"
+      ],
+      "provides": [
+        "ucode-mod-html-any"
+      ],
+      "tags": [
+        "openwrt:section=utils"
+      ]
+    }
+  ]
+}
