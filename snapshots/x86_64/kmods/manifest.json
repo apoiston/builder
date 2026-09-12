@@ -1,0 +1,2323 @@
+{
+  "packages": [
+    {
+      "name": "kmod-acpi-video",
+      "version": "6.18.51-r1",
+      "hashes": "33371eaceaf5f920aca6edb140cceae7b2145787c64454059d355fca9710d819",
+      "description": "Kernel support for integrated graphics devices.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 123814,
+      "file-size": 26274,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-backlight"
+      ],
+      "provides": [
+        "kmod-acpi-video-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-amazon-ena",
+      "version": "6.18.51-r1",
+      "hashes": "a708a7344c07e6cdb9e864b307b5256bfe9c865f6d182a9d90e7d6b69fce1e65",
+      "description": "This driver supports Elastic Network Adapter (ENA) used by Amazon AWS T3 (2018) and later instances.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 201925,
+      "file-size": 59806,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-ptp"
+      ],
+      "provides": [
+        "kmod-amazon-ena-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-amd-xgbe",
+      "version": "6.18.51-r1",
+      "hashes": "eb6f05dd47df2bd14c8063a8623e275eab9e019310c68bb40a48977685e06e43",
+      "description": "Kernel modules for AMD 10GbE Ethernet device on an AMD SoC.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 305085,
+      "file-size": 80079,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-libphy",
+        "kmod-mdio-devres",
+        "kmod-ptp"
+      ],
+      "provides": [
+        "kmod-amd-xgbe-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-backlight",
+      "version": "6.18.51-r1",
+      "hashes": "c7c300da3f1d89c777a32b3dd8cf01c31a03e8b11b4f55d9814b47e88fec515c",
+      "description": "Kernel module for Backlight support.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 41,
+      "file-size": 902,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-backlight-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-bnx2",
+      "version": "6.18.51-r1",
+      "hashes": "f8f721359163a141cb7a0c9d9fed8f928006ad7f9fb4924f2f81b08b33a447c2",
+      "description": "Kernel module for the BCM5706/5708/5709/5716 ethernet adapter",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 149782,
+      "file-size": 49577,
+      "depends": [
+        "bnx2-firmware",
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-bnx2-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-button-hotplug",
+      "version": "6.18.51-r4",
+      "hashes": "2ec75ba6d8ab6b0371e6d6d28961c1d18c21fbf92383d0da7959b5024dcd5058",
+      "description": "Kernel module to generate button uevent-s from input subsystem events. If your device uses GPIO buttons, see gpio-button-hotplug.",
+      "arch": "x86_64",
+      "license": "GPL-2.0",
+      "origin": "feeds/base/kernel/button-hotplug",
+      "installed-size": 12877,
+      "file-size": 4400,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-input-core"
+      ],
+      "provides": [
+        "kmod-button-hotplug-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel"
+      ]
+    }, {
+      "name": "kmod-cec-core",
+      "version": "6.18.51-r1",
+      "hashes": "db76adcbeed82edfe1f87c711c523ef583959972953486137ab103eb9c113aee",
+      "description": "CEC framework.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 764,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-cec-core-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-aead",
+      "version": "6.18.51-r1",
+      "hashes": "1303bc24f8cdc05b241d75e428c6c9858bfff324e91d63e088e9bf61442a3c58",
+      "description": "CryptoAPI AEAD support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 70,
+      "file-size": 963,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-null"
+      ],
+      "provides": [
+        "kmod-crypto-aead-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-authenc",
+      "version": "6.18.51-r1",
+      "hashes": "f22a063ec76594d74480b1f4c8e0ae1242e4ffbe0805a261d8665bd6a3792f0d",
+      "description": "Combined mode wrapper for IPsec",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 27919,
+      "file-size": 7541,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-manager",
+        "kmod-crypto-null"
+      ],
+      "provides": [
+        "kmod-crypto-authenc-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-cbc",
+      "version": "6.18.51-r1",
+      "hashes": "fd00032267f40c58d42ce54d8ee99229001930eccc524aaf57b6c52bacc6a36c",
+      "description": "Cipher Block Chaining CryptoAPI module",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 7773,
+      "file-size": 2897,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-manager"
+      ],
+      "provides": [
+        "kmod-crypto-cbc-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-cmac",
+      "version": "6.18.51-r1",
+      "hashes": "4e0d4302ecd71099847753411e51a9d26dae28c9b460214d84aa4a78c35b0ad8",
+      "description": "Support for Cipher-based Message Authentication Code (CMAC)",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 8616,
+      "file-size": 3235,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-hash"
+      ],
+      "provides": [
+        "kmod-crypto-cmac-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-cts",
+      "version": "6.18.51-r1",
+      "hashes": "bce17639f3f274dc2a4900bf055ab26b4c6630ecaa56161636db768574da4f70",
+      "description": "Cipher Text Stealing CryptoAPI module",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 14293,
+      "file-size": 4912,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-manager"
+      ],
+      "provides": [
+        "kmod-crypto-cts-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-hash",
+      "version": "6.18.51-r1",
+      "hashes": "2219f8db8b266822a37c8c8728cb07c8ea86055ebe9bc973344ad3a89d65d416",
+      "description": "CryptoAPI hash support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 77,
+      "file-size": 949,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-crypto-hash-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-hmac",
+      "version": "6.18.51-r1",
+      "hashes": "6d663b47a6be349efb7c35d9fd9781792ad8f6ef4f5207b74853b564555ed983",
+      "description": "HMAC digest CryptoAPI module",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 18048,
+      "file-size": 5526,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-hash",
+        "kmod-crypto-manager"
+      ],
+      "provides": [
+        "kmod-crypto-hmac-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-manager",
+      "version": "6.18.51-r1",
+      "hashes": "610612223c599233b322523198cea47d9d8ff183d4ef4ee9efc371647aeed574",
+      "description": "CryptoAPI algorithm manager",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 81,
+      "file-size": 981,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-aead",
+        "kmod-crypto-hash"
+      ],
+      "provides": [
+        "kmod-crypto-manager-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-null",
+      "version": "6.18.51-r1",
+      "hashes": "46783f3cc08efc7905eac258db5db6e96bcf5f37d237d2d37f3634629abedb3f",
+      "description": "Null CryptoAPI module",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 42,
+      "file-size": 892,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-hash"
+      ],
+      "provides": [
+        "kmod-crypto-null-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-rng",
+      "version": "6.18.51-r1",
+      "hashes": "53316e0ddac55c904b53bcf6ee4859784ad0b0c01c3ffac8320a1a8d635e244c",
+      "description": "CryptoAPI random number generation",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 41047,
+      "file-size": 12677,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-hash",
+        "kmod-crypto-hmac",
+        "kmod-crypto-sha3",
+        "kmod-crypto-sha512"
+      ],
+      "provides": [
+        "kmod-crypto-rng-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-sha1",
+      "version": "6.18.51-r1",
+      "hashes": "448f13f31d744246d320cd9ab7640e93c65b45579861cf832b8859fffe0b4d9a",
+      "description": "SHA1 digest CryptoAPI module",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 10888,
+      "file-size": 3137,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-hash"
+      ],
+      "provides": [
+        "kmod-crypto-sha1-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-sha256",
+      "version": "6.18.51-r1",
+      "hashes": "53cba3b57d765aa6887bdacde6681f70ddc262968a4522a47df22922987fda18",
+      "description": "SHA224 SHA256 digest CryptoAPI module",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 16150,
+      "file-size": 3861,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-hash"
+      ],
+      "provides": [
+        "kmod-crypto-sha256-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-sha3",
+      "version": "6.18.51-r1",
+      "hashes": "29d3681e5a688151910715ac935244951117f39f5601c696708f473ed835b1ba",
+      "description": "SHA3 digest CryptoAPI module",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 10760,
+      "file-size": 3650,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-hash"
+      ],
+      "provides": [
+        "kmod-crypto-sha3-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-crypto-sha512",
+      "version": "6.18.51-r1",
+      "hashes": "34ba6c76477eec66f89382d0df90caadc0e1515fd6e23cdb96b1db5bd46aa440",
+      "description": "SHA512 digest CryptoAPI module",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 77704,
+      "file-size": 16855,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-hash"
+      ],
+      "provides": [
+        "kmod-crypto-sha512-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-dax",
+      "version": "6.18.51-r1",
+      "hashes": "cc936966a838e64ec08844eb0d597c4840881ad656cde0022042d79fa0232e5d",
+      "description": "DAX: direct access to differentiated memory",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 66556,
+      "file-size": 17248,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-dax-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-dm",
+      "version": "6.18.51-r1",
+      "hashes": "c32cda0dc2baa49086e30180107cb6e7f90f6cf5648e557ae83a2126c7af2f5f",
+      "description": "Kernel module necessary for LVM2 support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 445279,
+      "file-size": 125007,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-manager",
+        "kmod-dax",
+        "kmod-keys-encrypted"
+      ],
+      "provides": [
+        "kmod-dm-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-dma-buf",
+      "version": "6.18.51-r1",
+      "hashes": "6c9211e2fc05921413605d6ced28b2f85f71aa756a5144128af7cc665070691f",
+      "description": "DMA shared buffer support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 44,
+      "file-size": 889,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-dma-buf-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-dnsresolver",
+      "version": "6.18.51-r1",
+      "hashes": "d9f4d58fffd777e18c1d17ae6aa57504c743fcc8a7ec93d5681da6e8041e000b",
+      "description": "In-kernel DNS Resolver",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 19632,
+      "file-size": 6264,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-dnsresolver-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-drm",
+      "version": "6.18.51-r1",
+      "hashes": "937a7ff89f17bf3c1b9d8d22a3fb4cfe8d74b385f0d6c49c4737e3475e42a07c",
+      "description": "Direct Rendering Manager (DRM) core support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 26,
+      "file-size": 959,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-backlight",
+        "kmod-dma-buf",
+        "kmod-fb",
+        "kmod-i2c-core"
+      ],
+      "provides": [
+        "kmod-drm-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-drm-buddy",
+      "version": "6.18.51-r1",
+      "hashes": "48b9607989383c9cb40ec4969fa2ce738b328e061972736f846ad4738883f8a2",
+      "description": "A page based buddy allocator",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 5597,
+      "file-size": 2401,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-drm"
+      ],
+      "provides": [
+        "kmod-drm-buddy-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-drm-display-helper",
+      "version": "6.18.51-r1",
+      "hashes": "f3bec6c3925f3cce7f2b57c579a99b912d71799a449a552ccd81571d051fbf87",
+      "description": "DRM helpers for display adapters drivers.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 273928,
+      "file-size": 76972,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-cec-core",
+        "kmod-drm-kms-helper"
+      ],
+      "provides": [
+        "kmod-drm-display-helper-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-drm-exec",
+      "version": "6.18.51-r1",
+      "hashes": "3aebc34f1f63d9153fb966a702d5265571b37832a1fbebabf724c1203087cb20",
+      "description": "Execution context for command submissions.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 799,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-drm"
+      ],
+      "provides": [
+        "kmod-drm-exec-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-drm-i915",
+      "version": "6.18.51-r1",
+      "hashes": "f3e3eeb8a6e5e6c84173e6794dfa218d4a1fd894bb81fe24450092dc34e01bf8",
+      "description": "Direct Rendering Manager (DRM) support for Intel GPU",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 6378738,
+      "file-size": 1574100,
+      "depends": [
+        "i915-firmware-dmc",
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-acpi-video",
+        "kmod-backlight",
+        "kmod-drm-buddy",
+        "kmod-drm-display-helper",
+        "kmod-drm-exec",
+        "kmod-drm-kms-helper",
+        "kmod-drm-suballoc-helper",
+        "kmod-drm-ttm",
+        "kmod-drm-ttm-helper",
+        "kmod-i2c-algo-bit"
+      ],
+      "provides": [
+        "kmod-drm-i915-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-drm-kms-helper",
+      "version": "6.18.51-r1",
+      "hashes": "2a2f5a824919ef56da6e21bad65471891060a5a6a63398bcaf7dbe31137adc0f",
+      "description": "CRTC helpers for KMS drivers.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 45,
+      "file-size": 1004,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-drm",
+        "kmod-fb",
+        "kmod-fb-cfb-copyarea",
+        "kmod-fb-cfb-fillrect",
+        "kmod-fb-cfb-imgblt",
+        "kmod-fb-sys-fops",
+        "kmod-fb-sys-ram"
+      ],
+      "provides": [
+        "kmod-drm-kms-helper-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-drm-suballoc-helper",
+      "version": "6.18.51-r1",
+      "hashes": "17f8d6b57592a28feae0f98132e8146c3506d05e761c0ee57db5ec47a8716d51",
+      "description": "DRM suballocation helper.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 787,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-drm"
+      ],
+      "provides": [
+        "kmod-drm-suballoc-helper-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-drm-ttm",
+      "version": "6.18.51-r1",
+      "hashes": "eeff3e5474c9b49fb0fcd906aaffe53ec009a9ca3cf4cc65564a5b722198e3ca",
+      "description": "GPU memory management subsystem for devices with multiple GPU memory types. Will be enabled automatically if a device driver uses it.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 163743,
+      "file-size": 43989,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-drm"
+      ],
+      "provides": [
+        "kmod-drm-ttm-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-drm-ttm-helper",
+      "version": "6.18.51-r1",
+      "hashes": "b1f63b95f7e3eca002ac578a9ab77009193292ffa81e4efdb4a3267e99b1dffe",
+      "description": "Helpers for ttm-based gem objects",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 804,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-drm-kms-helper",
+        "kmod-drm-ttm"
+      ],
+      "provides": [
+        "kmod-drm-ttm-helper-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-dummy",
+      "version": "6.18.51-r1",
+      "hashes": "a68ffd9e602481c58fb4e26ca1359680942a98de663df5539a93e8d924415798",
+      "description": "The dummy network device",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 10188,
+      "file-size": 3077,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-dummy-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-dwmac-intel",
+      "version": "6.18.51-r1",
+      "hashes": "c33a2e0c94e042b5a0630ca5becb232e06825ae6f2ae3d6635f0cc2e7295c333",
+      "description": "Intel GMAC support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 33734,
+      "file-size": 9657,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-stmmac-core"
+      ],
+      "provides": [
+        "kmod-dwmac-intel-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-e1000",
+      "version": "6.18.51-r1",
+      "hashes": "1c6f20f8a5cae35419ffde0a2920e725e304f38c2e6cc6faee720c9a90458e3d",
+      "description": "Kernel modules for Intel(R) PRO/1000 PCI Ethernet adapters.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 204585,
+      "file-size": 61862,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-e1000-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-e1000e",
+      "version": "6.18.51-r1",
+      "hashes": "51c5cdbef9723c44a6a9dc37604979ca280ec96faee18b5c9edea1e1d80b7104",
+      "description": "Kernel modules for Intel(R) PRO/1000 PCIe Ethernet adapters.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 409855,
+      "file-size": 111259,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-ptp"
+      ],
+      "provides": [
+        "kmod-e1000e-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fb",
+      "version": "6.18.51-r1",
+      "hashes": "f07f8126982ed860bc7ad9ef15b816dc7b1b2c5158c7e084ab10594fbece16d1",
+      "description": "Kernel support for framebuffers and framebuffer console.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 42,
+      "file-size": 932,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-backlight"
+      ],
+      "provides": [
+        "kmod-fb-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fb-cfb-copyarea",
+      "version": "6.18.51-r1",
+      "hashes": "9828621722b1d0c7220b8816cf50f43f01756891ae3303eb62d43038c75dbb8e",
+      "description": "Kernel support for software copy area",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 46,
+      "file-size": 913,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-fb"
+      ],
+      "provides": [
+        "kmod-fb-cfb-copyarea-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fb-cfb-fillrect",
+      "version": "6.18.51-r1",
+      "hashes": "ea8370d1da150c3c91dabc64692e64deeceb7ce8a42e978951d3d83cf0757764",
+      "description": "Kernel support for software rectangle filling",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 46,
+      "file-size": 911,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-fb"
+      ],
+      "provides": [
+        "kmod-fb-cfb-fillrect-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fb-cfb-imgblt",
+      "version": "6.18.51-r1",
+      "hashes": "1d377e714e93c59ed23bb0a93e1809e99158872ff74fdbc50fbf1a95791c8b74",
+      "description": "Kernel support for software image blitting",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 42,
+      "file-size": 920,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-fb"
+      ],
+      "provides": [
+        "kmod-fb-cfb-imgblt-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fb-sys-fops",
+      "version": "6.18.51-r1",
+      "hashes": "ef5c3d4602b293d2bbc3fa61ebbada434aa5336bd6775aa19cac7937b038dc6c",
+      "description": "Kernel support for framebuffer sys ops",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 42,
+      "file-size": 918,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-fb"
+      ],
+      "provides": [
+        "kmod-fb-sys-fops-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fb-sys-ram",
+      "version": "6.18.51-r1",
+      "hashes": "ef1b32f0a032b8b2578d4d4f34c3cc56cc5a389ba6df8dbd5431eeaf5c3c2e26",
+      "description": "Kernel support for framebuffers in system RAM",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 63,
+      "file-size": 933,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-fb"
+      ],
+      "provides": [
+        "kmod-fb-sys-ram-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-forcedeth",
+      "version": "6.18.51-r1",
+      "hashes": "f6c3db4b9800519d8cda75ae7311f0225283ea95a9c270f61fc1124f0c6f2aef",
+      "description": "Kernel driver for Nvidia Ethernet support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 114957,
+      "file-size": 34311,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-forcedeth-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fs-exportfs",
+      "version": "6.18.51-r1",
+      "hashes": "e88048bece5466335f2efab30e8a81900b02949de633d644b75eae26d4727325",
+      "description": "Kernel module for exportfs. Needed for some other modules.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 74,
+      "file-size": 965,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-fs-exportfs-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fs-nfs",
+      "version": "6.18.51-r1",
+      "hashes": "5353e40c3de4ca1860179d009c497163ab5e2c664556dc8b74639b932527e6ac",
+      "description": "Kernel module for NFS client support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 434745,
+      "file-size": 116228,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-dnsresolver",
+        "kmod-fs-nfs-common"
+      ],
+      "provides": [
+        "kmod-fs-nfs-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fs-nfs-common",
+      "version": "6.18.51-r1",
+      "hashes": "9252c3236f63f3cfea60821054ce5e9dbc44d4f70232921fa16971c52f05dae6",
+      "description": "Common NFS filesystem modules",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 845518,
+      "file-size": 212577,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-oid-registry"
+      ],
+      "provides": [
+        "kmod-fs-nfs-common-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fs-nfs-common-rpcsec",
+      "version": "6.18.51-r1",
+      "hashes": "2684dc418839c604f11748f91ea22a5ba59140c31835bec3e921abe417d1cfbe",
+      "description": "Kernel modules for NFS Secure RPC",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 166743,
+      "file-size": 47475,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-authenc",
+        "kmod-crypto-cbc",
+        "kmod-crypto-cmac",
+        "kmod-crypto-cts",
+        "kmod-crypto-hmac",
+        "kmod-crypto-manager",
+        "kmod-crypto-sha1",
+        "kmod-crypto-sha256",
+        "kmod-crypto-sha512",
+        "kmod-fs-nfs-common"
+      ],
+      "provides": [
+        "kmod-fs-nfs-common-rpcsec-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fs-nfs-v4",
+      "version": "6.18.51-r1",
+      "hashes": "6cec7bc80a94fd22cfebbd17f2d013564f98df0ed46e78fc05d1cac17dad0cbb",
+      "description": "Kernel module for NFS v4 client support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 906533,
+      "file-size": 242767,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-fs-nfs"
+      ],
+      "provides": [
+        "kmod-fs-nfs-v4-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fs-nfsd",
+      "version": "6.18.51-r1",
+      "hashes": "ba203f04041ee19173faf60f14569c50a47728ba586ed297b33b358282970230",
+      "description": "Kernel module for NFS kernel server support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 773740,
+      "file-size": 203963,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-fs-exportfs",
+        "kmod-fs-nfs-common",
+        "kmod-fs-nfs-common-rpcsec"
+      ],
+      "provides": [
+        "kmod-fs-nfsd-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-fs-vfat",
+      "version": "6.18.51-r1",
+      "hashes": "875ed0dd049bec4a8c084f70f390a9495667cdccafa22215ac930c5fce0508a8",
+      "description": "Kernel module for VFAT filesystem support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 169947,
+      "file-size": 52607,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nls-base",
+        "kmod-nls-cp437",
+        "kmod-nls-iso8859-1",
+        "kmod-nls-utf8"
+      ],
+      "provides": [
+        "kmod-fs-vfat-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-hwmon-core",
+      "version": "6.18.51-r1",
+      "hashes": "06d09ec0f25b104c0e9004a6b550bf21445bf14e1a0e16326c2b98498ffa4de0",
+      "description": "Kernel modules for hardware monitoring",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 798,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-i2c-core"
+      ],
+      "provides": [
+        "kmod-hwmon-core-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-i2c-algo-bit",
+      "version": "6.18.51-r1",
+      "hashes": "0196f64ddc9e1be9dbe908436a9b17ddf410fbf6537d55f1d5c427d047302f94",
+      "description": "Kernel modules for I2C bit-banging interfaces",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 44,
+      "file-size": 926,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-i2c-core"
+      ],
+      "provides": [
+        "kmod-i2c-algo-bit-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-i2c-core",
+      "version": "6.18.51-r1",
+      "hashes": "eaaaa126bd4c87d65aa7fcdded3cce7f29d03d65ed4421cb05bb881651bf7fbc",
+      "description": "Kernel modules for I2C support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 20972,
+      "file-size": 6613,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-i2c-core-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-igb",
+      "version": "6.18.51-r1",
+      "hashes": "d909d0c196b5e199ec2f13e774cb7eb531eb98dc7a8c980b5ef459c9724df66e",
+      "description": "Kernel modules for Intel(R) 82575/82576 PCI-Express Gigabit Ethernet adapters.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 399377,
+      "file-size": 116294,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-hwmon-core",
+        "kmod-i2c-algo-bit",
+        "kmod-i2c-core",
+        "kmod-ptp"
+      ],
+      "provides": [
+        "kmod-igb-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-igc",
+      "version": "6.18.51-r1",
+      "hashes": "1e249879b67753af05db23cd397b18ed455c577a595f8658b861cbf34cb125ba",
+      "description": "Kernel modules for Intel(R) Ethernet Controller I225 Series",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 255161,
+      "file-size": 77835,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-ptp"
+      ],
+      "provides": [
+        "kmod-igc-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-inet-diag",
+      "version": "6.18.51-r1",
+      "hashes": "3cab591645f1410c25818209eb4366abf922e72c4117172d6f93d0b686c20309",
+      "description": "Support for INET (TCP, DCCP, etc) socket monitoring interface used by native Linux tools such as ss.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 56742,
+      "file-size": 16549,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-inet-diag-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-input-core",
+      "version": "6.18.51-r1",
+      "hashes": "f04699a363a1f33b46603099d69ca005780454fbfb881cc4e29338aee6189ec0",
+      "description": "Kernel modules for support of input device",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 785,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-input-core-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-ixgbe",
+      "version": "6.18.51-r1",
+      "hashes": "c50c8bd9f2251c808ec1e7b84cd6070500a0dcda6b721202c7fef58774623c62",
+      "description": "Kernel modules for Intel(R) 82598/82599 PCI-Express 10 Gigabit Ethernet adapters.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 661409,
+      "file-size": 189169,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-hwmon-core",
+        "kmod-libie-fwlog",
+        "kmod-libphy",
+        "kmod-mdio",
+        "kmod-mdio-devres",
+        "kmod-ptp"
+      ],
+      "provides": [
+        "kmod-ixgbe-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-keys-encrypted",
+      "version": "6.18.51-r1",
+      "hashes": "29c2cc8af8c6e8511ac32f22db0e8ec41566ea41db3fc6776d4884a6ad75a6ec",
+      "description": "This module provides support for create/encrypting/decrypting keys in the kernel. Encrypted keys are kernel generated random numbers, which are encrypted/decrypted with a 'master' symmetric key. The 'master' key can be either a trusted-key or user-key type. Userspace only ever sees/stores encrypted blobs.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 31613,
+      "file-size": 9990,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-cbc",
+        "kmod-crypto-hmac",
+        "kmod-crypto-rng",
+        "kmod-crypto-sha256",
+        "kmod-keys-trusted"
+      ],
+      "provides": [
+        "kmod-keys-encrypted-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-keys-trusted",
+      "version": "6.18.51-r1",
+      "hashes": "b85507778c92838b133939ac4547b8da0b08de5c43a3d8f8345f41b06e65c6a3",
+      "description": "This module provides support for creating, sealing, and unsealing keys in the kernel. Trusted keys are random number symmetric keys, generated and RSA-sealed by the TPM. The TPM only unseals the keys, if the boot PCRs and other criteria match. Userspace will only ever see encrypted blobs.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 13304,
+      "file-size": 4510,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-crypto-hash",
+        "kmod-crypto-hmac",
+        "kmod-crypto-sha1",
+        "kmod-tpm"
+      ],
+      "provides": [
+        "kmod-keys-trusted-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-lib-crc-ccitt",
+      "version": "6.18.51-r1",
+      "hashes": "d14a1103075aa0be7e35ba5951636f1e947347a4cfc6ac7d6a7585eb42f497f1",
+      "description": "Kernel module for CRC-CCITT support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 4273,
+      "file-size": 2306,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-lib-crc-ccitt-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-libeth",
+      "version": "6.18.51-r1",
+      "hashes": "63ea7d34f71ca9695d8b5a56fa73647467cbd81c7119ea88726c6595cef68ace",
+      "description": "Common Intel Ethernet library",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 773,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-libeth-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-libie",
+      "version": "6.18.51-r1",
+      "hashes": "8493f97903fa8f25d870a03d72c6b0abea6876f67fa53dba986c434f749c57b1",
+      "description": "Intel Ethernet library",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 769,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-libeth"
+      ],
+      "provides": [
+        "kmod-libie-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-libie-fwlog",
+      "version": "6.18.51-r1",
+      "hashes": "84729743591e4ebf8604eaa8d5c81f0c6ac11c5a58a589ca7c71f4dc1fcf5a16",
+      "description": "Intel Ethernet library FW Log",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 26916,
+      "file-size": 8109,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-libie"
+      ],
+      "provides": [
+        "kmod-libie-fwlog-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-libphy",
+      "version": "6.18.51-r1",
+      "hashes": "f950b4228d1166133f6e0d5c9f155467881a167c551afe27f93478aab4159bc6",
+      "description": "PHY library",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 277911,
+      "file-size": 64346,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-libphy-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-mdio",
+      "version": "6.18.51-r1",
+      "hashes": "a544c0f5e9de3a63579765233b83e7b6d99ff7ff5ed705a6a283e160249f784e",
+      "description": "Kernel modules for MDIO (clause 45) PHY support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 9777,
+      "file-size": 3917,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-mdio-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-mdio-devres",
+      "version": "6.18.51-r1",
+      "hashes": "985e90b8b0e1e42e41a33f799c2a1121f9d6143d30c46c733d801a6ce3b7ae8a",
+      "description": "Supports MDIO device registration",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 6163,
+      "file-size": 2402,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-libphy"
+      ],
+      "provides": [
+        "kmod-mdio-devres-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-mii",
+      "version": "6.18.51-r1",
+      "hashes": "e877fe5b11f0493708776e784666c450db43e10ad4722456519babd0d24e31f6",
+      "description": "MII library",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 15265,
+      "file-size": 5651,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-mii-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-conntrack",
+      "version": "6.18.51-r1",
+      "hashes": "bb259d17a0de612b453241924d1411a5814d1b52b35e77e9ec40340215e11118",
+      "description": "Netfilter connection tracking",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 233689,
+      "file-size": 63506,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-nf-conntrack-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-conntrack-netlink",
+      "version": "6.18.51-r1",
+      "hashes": "c9ac7af62071f5f08cd40b3be58fd733401067d14f6a31932311082a64b7da18",
+      "description": "Kernel modules support for a netlink-based connection tracking userspace interface",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 64150,
+      "file-size": 19797,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nf-conntrack",
+        "kmod-nfnetlink"
+      ],
+      "provides": [
+        "kmod-nf-conntrack-netlink-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-flow",
+      "version": "6.18.51-r1",
+      "hashes": "c593b4ee6c98f5f11bb64d9e239cca177dae74f4aa17da428687c9f26d5257db",
+      "description": "Netfilter flowtable support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 76108,
+      "file-size": 24541,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nf-conntrack",
+        "kmod-nft-core"
+      ],
+      "provides": [
+        "kmod-nf-flow-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-log",
+      "version": "6.18.51-r1",
+      "hashes": "880b8ba9dffba46d1acf9f0871aabe96b19f35fd0e1f7fcdf92efb0e3159bb74",
+      "description": "Netfilter Logging",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 30730,
+      "file-size": 9446,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-nf-log-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-log6",
+      "version": "6.18.51-r1",
+      "hashes": "adffc36e3c329a4ab3a2b26ee7af7224cb9025ff0d4c987f1770d0f05aff4089",
+      "description": "Netfilter IPV6 Logging",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 779,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nf-log"
+      ],
+      "provides": [
+        "kmod-nf-log6-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-nat",
+      "version": "6.18.51-r1",
+      "hashes": "b71e507d93aa0b1990d46e84582e52166b7dbcc01a005f06182b3833fb750de8",
+      "description": "Netfilter NAT",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 57884,
+      "file-size": 18498,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nf-conntrack"
+      ],
+      "provides": [
+        "kmod-nf-nat-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-reject",
+      "version": "6.18.51-r1",
+      "hashes": "4a5bf8be982d151c96182cdc43f6ba18852c7cc086b0610fa353acd08fa7505d",
+      "description": "Netfilter IPv4 reject support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 11799,
+      "file-size": 4842,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-nf-reject-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-reject6",
+      "version": "6.18.51-r1",
+      "hashes": "e48fcfc0b532d8f6d635253e907d2c565c36b037986f39cefc861562e36463d0",
+      "description": "Netfilter IPv6 reject support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 11752,
+      "file-size": 4975,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-nf-reject6-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-socket",
+      "version": "6.18.51-r1",
+      "hashes": "c079306de7507be1de7ff86136862358a3147c46bf8e1ae2e008d54e756e1504",
+      "description": "Netfilter socket lookup support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 10677,
+      "file-size": 3797,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-nf-socket-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nf-tproxy",
+      "version": "6.18.51-r1",
+      "hashes": "7ead9b8cbea1fea4ab73dc3dfef1f8528906046bf80cfb5838da3e46e1fe1e22",
+      "description": "Netfilter tproxy support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 14477,
+      "file-size": 4318,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-nf-tproxy-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nfnetlink",
+      "version": "6.18.51-r1",
+      "hashes": "3c7371477587e73423a78b9a23cb4b4c6ed8a1d352505b8548ee4abc950d02f6",
+      "description": "Kernel modules support for a netlink-based userspace interface",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 24325,
+      "file-size": 7750,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-nfnetlink-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nft-core",
+      "version": "6.18.51-r1",
+      "hashes": "bc5aa59c938ed35c2ccfeabd07588ae718f865bef186dc6698fde174405e6cb8",
+      "description": "Kernel module support for nftables",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 585476,
+      "file-size": 166894,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nf-log",
+        "kmod-nf-log6",
+        "kmod-nf-nat",
+        "kmod-nf-reject",
+        "kmod-nf-reject6",
+        "kmod-nfnetlink"
+      ],
+      "provides": [
+        "kmod-nft-core-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nft-fib",
+      "version": "6.18.51-r1",
+      "hashes": "949c665e1371e90e792c3625851a202e02157a8bdb87c44cff0be3d7a5a8046f",
+      "description": "Netfilter nf_tables fib support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 34573,
+      "file-size": 8303,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nft-core"
+      ],
+      "provides": [
+        "kmod-nft-fib-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nft-nat",
+      "version": "6.18.51-r1",
+      "hashes": "d0db5b6114b1af3f90a6696e05f524437e678c18549dcef6da8ed1f0018abc1f",
+      "description": "Netfilter nf_tables NAT support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 27517,
+      "file-size": 6358,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nf-nat",
+        "kmod-nft-core"
+      ],
+      "provides": [
+        "kmod-nft-nat-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nft-offload",
+      "version": "6.18.51-r1",
+      "hashes": "00355f0534ccc12be0047f59d21f9624832b4619f9412c072bee93c793cd7b03",
+      "description": "Netfilter nf_tables routing/NAT offload support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 16315,
+      "file-size": 4527,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nf-flow",
+        "kmod-nft-nat"
+      ],
+      "provides": [
+        "kmod-nft-offload-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nft-socket",
+      "version": "6.18.51-r1",
+      "hashes": "cbd8298db7694411f159fa261d0a66b9e233088afd0b081847dfd5dee81d424e",
+      "description": "Netfilter nf_tables socket support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 9048,
+      "file-size": 3379,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nf-socket",
+        "kmod-nft-core"
+      ],
+      "provides": [
+        "kmod-nft-socket-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nft-tproxy",
+      "version": "6.18.51-r1",
+      "hashes": "2797aacbf49ac496e7639021d41221d98d7104b5c97e6a20914842a1694e34b8",
+      "description": "Netfilter nf_tables tproxy support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 10832,
+      "file-size": 4067,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nf-conntrack",
+        "kmod-nf-tproxy",
+        "kmod-nft-core"
+      ],
+      "provides": [
+        "kmod-nft-tproxy-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nls-base",
+      "version": "6.18.51-r1",
+      "hashes": "62fa0fc4a0da0d6964b6fb65e19c55fc6d1d9c6771942017f85b25b66cfbccbc",
+      "description": "Kernel module for NLS (Native Language Support)",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 785,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-nls-base-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nls-cp437",
+      "version": "6.18.51-r1",
+      "hashes": "196b7839a6af4d4f9881067bd9acd9240ecf3aff4f9fb0276d6061d0eae298d0",
+      "description": "Kernel module for NLS Codepage 437 (United States, Canada)",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 10392,
+      "file-size": 3170,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nls-base"
+      ],
+      "provides": [
+        "kmod-nls-cp437-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nls-iso8859-1",
+      "version": "6.18.51-r1",
+      "hashes": "1e35ad897a0c9f846fa8f1d85303a58327c378fdd7450597ee97b9d87d39780e",
+      "description": "Kernel module for NLS ISO 8859-1 (Latin 1)",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 8732,
+      "file-size": 2855,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nls-base"
+      ],
+      "provides": [
+        "kmod-nls-iso8859-1-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-nls-utf8",
+      "version": "6.18.51-r1",
+      "hashes": "ae54db04a2db1274a7e41750e7111391737b7391a15787151a70ad37c0e08a80",
+      "description": "Kernel module for NLS UTF-8",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 5349,
+      "file-size": 2079,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-nls-base"
+      ],
+      "provides": [
+        "kmod-nls-utf8-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-oid-registry",
+      "version": "6.18.51-r1",
+      "hashes": "0ae35561104ec4bc93d223c37358e373425d758b34d3faf5e0e4dc7771389649",
+      "description": "Object identifier registry",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 7145,
+      "file-size": 3383,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-oid-registry-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-pcs-xpcs",
+      "version": "6.18.51-r1",
+      "hashes": "7b73181d63c11f3920f45899369e646c6da3fb903b43c4d676aed0203575eca1",
+      "description": "Synopsis DesignWare PCS driver",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 50373,
+      "file-size": 13807,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-mdio-devres",
+        "kmod-phylink"
+      ],
+      "provides": [
+        "kmod-pcs-xpcs-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-phy-realtek",
+      "version": "6.18.51-r1",
+      "hashes": "f9ef077dc3c13b7d750b666ae420b421354ee497546a34e7bf42602aecd6fed9",
+      "description": "Supports the Realtek 821x PHY.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 97545,
+      "file-size": 21139,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-hwmon-core",
+        "kmod-libphy"
+      ],
+      "provides": [
+        "kmod-phy-realtek-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-phylink",
+      "version": "6.18.51-r1",
+      "hashes": "2ccc6f1172002b4829479d1bad9911309d034cb949832120ccee8a3c2a3626f9",
+      "description": "Model for MAC to optional PHY connection",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 92977,
+      "file-size": 26139,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-libphy"
+      ],
+      "provides": [
+        "kmod-phylink-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-ppp",
+      "version": "6.18.51-r1",
+      "hashes": "c1cfe43ef88edb9f2c8475b2c11001c82f7a165d5db76a038eb84a1f53442f23",
+      "description": "Kernel modules for PPP support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 104243,
+      "file-size": 30760,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-lib-crc-ccitt",
+        "kmod-slhc"
+      ],
+      "provides": [
+        "kmod-ppp-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-pppoe",
+      "version": "6.18.51-r1",
+      "hashes": "4d8582c0ef7c61de16f7a6faadb865ef3b456742bbfea905fabf370063e21307",
+      "description": "Kernel module for PPPoE (PPP over Ethernet) support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 31105,
+      "file-size": 10027,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-ppp",
+        "kmod-pppox"
+      ],
+      "provides": [
+        "kmod-pppoe-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-pppox",
+      "version": "6.18.51-r1",
+      "hashes": "c9b192612cd32f45594c340aeef352a181a2f7f1fd2605af7a42beb00c5697ec",
+      "description": "Kernel helper module for PPPoE and PPTP support",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 8438,
+      "file-size": 2831,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-ppp"
+      ],
+      "provides": [
+        "kmod-pppox-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-pps",
+      "version": "6.18.51-r1",
+      "hashes": "fc8c5a2b7db558a0e66c5a200aed9a6690f94bb784ccc72d2e401d5dc69064c1",
+      "description": "PPS (Pulse Per Second) is a special pulse provided by some GPS antennae. Userland can use it to get a high-precision time reference.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 58,
+      "file-size": 1023,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-pps-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-ptp",
+      "version": "6.18.51-r1",
+      "hashes": "db694daa29106719c83455ceb2f87e968770834d165b8e69ded71b3d79e8cb4d",
+      "description": "The IEEE 1588 standard defines a method to precisely synchronize distributed clocks over Ethernet networks.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 53,
+      "file-size": 1008,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-pps"
+      ],
+      "provides": [
+        "kmod-ptp-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-r8169",
+      "version": "6.18.51-r1",
+      "hashes": "1b386cbfab5f6c99f6182f978c4099eaefe5715b0304838d40219e1223c58333",
+      "description": "Kernel modules for RealTek RTL-8169 PCI Gigabit Ethernet adapters",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 248283,
+      "file-size": 54071,
+      "provider-priority": 100,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-mdio-devres",
+        "kmod-mii",
+        "kmod-phy-realtek",
+        "r8169-firmware"
+      ],
+      "provides": [
+        "kmod-r8169-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-random-core",
+      "version": "6.18.51-r1",
+      "hashes": "97bdbd5b66eb61aaa84f8e1294a95056df0612a0ecbb6703fc802fbfdfc63d67",
+      "description": "Kernel module for the HW random number generator core infrastructure",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 1,
+      "file-size": 798,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-random-core-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-slhc",
+      "version": "6.18.51-r1",
+      "hashes": "d5c6a34a15fcaf57207918d7b76252fe2f335c2b7f975f2f7a75e0701f11a932",
+      "description": "Serial Line Header Compression",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 11341,
+      "file-size": 5026,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-slhc-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-stmmac-core",
+      "version": "6.18.51-r1",
+      "hashes": "8c6280757f9683f6eaf0c8f9b3f56e7e90de58ddd8e660515666fa4a9c33c1a4",
+      "description": "Synopsis Ethernet Controller core (NXP,STMMicro,others)",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 408568,
+      "file-size": 116816,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-pcs-xpcs",
+        "kmod-ptp"
+      ],
+      "provides": [
+        "kmod-stmmac-core-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-tg3",
+      "version": "6.18.51-r1",
+      "hashes": "85f009899f3d250ae8bd83395330cec52e4daa5a6e295a7cd6824cd86a20c086",
+      "description": "Kernel modules for Broadcom Tigon3 Gigabit Ethernet adapters",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 326457,
+      "file-size": 99368,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-libphy",
+        "kmod-ptp"
+      ],
+      "provides": [
+        "kmod-tg3-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-tpm",
+      "version": "6.18.51-r1",
+      "hashes": "5dad90a430c9fc19d6e97febbe021e38119bb7cdb34e49565d4618f11dd8e9e3",
+      "description": "This enables TPM Hardware Support.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 140169,
+      "file-size": 35741,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1",
+        "kmod-random-core"
+      ],
+      "provides": [
+        "kmod-tpm-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-tun",
+      "version": "6.18.51-r1",
+      "hashes": "57ab6e23b5922d6018a92d4528482889c5d957d616b50a78d41d2e586c24d5d9",
+      "description": "Kernel support for the TUN/TAP tunneling device",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 100558,
+      "file-size": 32210,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-tun-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }, {
+      "name": "kmod-vmxnet3",
+      "version": "6.18.51-r1",
+      "hashes": "eff06a1ab93b9b42aef15f4156ee161195b03e0c65c329591a5350f4d556fec5",
+      "description": "Kernel modules for VMware VMXNET3 ethernet adapters.",
+      "arch": "x86_64",
+      "license": "GPL-2.0-only",
+      "origin": "feeds/base/kernel/linux",
+      "installed-size": 65,
+      "file-size": 960,
+      "depends": [
+        "kernel=6.18.51~8b84613d980248d5777eb375770c88e3-r1"
+      ],
+      "provides": [
+        "kmod-vmxnet3-any"
+      ],
+      "tags": [
+        "openwrt:section=kernel",
+        "openwrt:cpe=cpe:/o:linux:linux_kernel"
+      ]
+    }
+  ]
+}
