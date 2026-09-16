@@ -20,13 +20,9 @@
 
 - [packages](https://initpackages.pages.dev/)
 
-- [kmods](https://initkmods.pages.dev/)
-
-- [system](https://initsystem.pages.dev/)
-
 - [extra](https://initextra.pages.dev/)
 
-- [extkmods](https://extkmods.pages.dev/)
+- [kmods](https://initkmods.pages.dev/)
 
 ## Common Commands
 
