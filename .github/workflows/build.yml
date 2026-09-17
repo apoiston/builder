@@ -102,11 +102,7 @@ jobs:
         with:
           name: packages
           path: |
-            ${{ env.WORK_DIR }}/dist-base/
-            ${{ env.WORK_DIR }}/dist-luci/
             ${{ env.WORK_DIR }}/dist-packages/
-            ${{ env.WORK_DIR }}/dist-kmods/
-            ${{ env.WORK_DIR }}/dist-system/
             ${{ env.WORK_DIR }}/dist-extra/
 
   deploy:
@@ -117,21 +113,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - directory: dist-base
-            branch: base
-            tag: BASE
-          - directory: dist-luci
-            branch: luci
-            tag: LUCI
           - directory: dist-packages
             branch: packages
             tag: PACKAGES
-          - directory: dist-kmods
-            branch: kmods
-            tag: KMODS
-          - directory: dist-system
-            branch: system
-            tag: SYSTEM
           - directory: dist-extra
             branch: extra
             tag: EXTRA
@@ -181,5 +165,5 @@ jobs:
         with:
           cloudflare_account_id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           cloudflare_api_token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          project_name: initbase initluci initpackages initkmods initsystem initextra
+          project_name: initpackages initextra
           enable_delete_preview: true

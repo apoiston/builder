@@ -55,9 +55,5 @@ jobs:
           name: image
           path: |
             ${{ env.WORK_DIR }}/dist/
-            ${{ env.WORK_DIR }}/dist-base/
-            ${{ env.WORK_DIR }}/dist-luci/
             ${{ env.WORK_DIR }}/dist-packages/
-            ${{ env.WORK_DIR }}/dist-kmods/
-            ${{ env.WORK_DIR }}/dist-system/
             ${{ env.WORK_DIR }}/dist-extra/
