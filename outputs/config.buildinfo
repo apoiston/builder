@@ -118,7 +118,6 @@ CONFIG_PACKAGE_kmod-tpm=y
 CONFIG_PACKAGE_kmod-tun=y
 CONFIG_PACKAGE_kmod-vmxnet3=y
 CONFIG_PACKAGE_libacl=y
-CONFIG_PACKAGE_libatomic=y
 CONFIG_PACKAGE_libattr=y
 CONFIG_PACKAGE_libbpf=y
 CONFIG_PACKAGE_libcap=y
