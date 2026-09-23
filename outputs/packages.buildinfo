@@ -1,6 +1,6 @@
-apk-mbedtls - 3.0.5-r3
+apk-mbedtls - 3.0.5-r4
 attr - 2.5.2-r3
-base-files - 1706~14651b9683
+base-files - 1706~19ff245b92
 bash - 5.3-r5
 block-mount - 2026.07.25~2aa16407-r1
 bnx2-firmware - 20260910-r1
@@ -9,7 +9,7 @@ ca-bundle - 20260816-r1
 ca-certificates - 20260816-r1
 caddy - 2.11.4-r1
 cgi-io - 2026.07.21~31cb3c89-r1
-curl - 8.21.0-r2
+curl - 8.22.0-r1
 dnsmasq-full - 2.93-r3
 dropbear - 2026.94-r2
 e2fsprogs - 1.47.4-r1
@@ -147,7 +147,7 @@ libbpf1 - 1.7.0-r1
 libc - 1.2.6-r5
 libcap - 2.69-r1
 libcomerr0 - 1.47.4-r1
-libcurl4 - 8.21.0-r2
+libcurl4 - 8.22.0-r1
 libdevmapper - 1.02.216
 libdnet - 1.16.1-r1
 libe2p2 - 1.47.4-r1
@@ -218,7 +218,7 @@ luci-app-package-manager - 26.264.63453~d245681
 luci-base - 26.264.63453~d245681
 luci-i18n-base-zh-cn - 26.264.63453~d245681
 luci-i18n-firewall-zh-cn - 26.264.63453~d245681
-luci-i18n-nikki-zh-cn - 26.260.12745~9a6679e
+luci-i18n-nikki-zh-cn - 26.266.19567~8559ea0
 luci-i18n-package-manager-zh-cn - 26.264.63453~d245681
 luci-lib-uqr - 26.264.63453~d245681
 luci-mod-admin-full - 26.264.63453~d245681
@@ -229,12 +229,11 @@ luci-nginx - 26.264.63453~d245681
 luci-proto-ipv6 - 26.264.63453~d245681
 luci-proto-ppp - 26.264.63453~d245681
 luci-theme-bootstrap - 26.264.63453~d245681
-mihomo-alpha - 2026.09.19~5019cc0
+mihomo-alpha - 2026.09.22~3c947c7
 mkf2fs - 1.16.0-r4
 mtd - 28
 netifd - 2026.09.11~06d06c86-r1
 nfs-kernel-server-v4 - 2.9.1-r1
-nfs-utils - 2.9.1-r1
 nftables-json - 1.1.6-r4
 nginx-full - 1.31.6-r1
 nginx-mod-brotli - 1.31.6-r1
@@ -254,9 +253,9 @@ parted - 3.6-r2
 partx-utils - 2.42.2-r1
 ppp - 2.5.3-r2
 ppp-mod-pppoe - 2.5.3-r2
-procd - 2026.09.19~c230ad87-r1
-procd-seccomp - 2026.09.19~c230ad87-r1
-procd-ujail - 2026.09.19~c230ad87-r1
+procd - 2026.09.22~6af440ae-r1
+procd-seccomp - 2026.09.22~6af440ae-r1
+procd-ujail - 2026.09.22~6af440ae-r1
 r8169-firmware - 20260910-r1
 rpcbind - 1.2.6-r2
 rpcd - 2026.07.19~e37ed9d8-r1

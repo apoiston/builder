@@ -183,7 +183,6 @@ CONFIG_PACKAGE_luci-theme-bootstrap=y
 CONFIG_PACKAGE_mihomo-alpha=y
 CONFIG_PACKAGE_mihomo-meta=m
 CONFIG_PACKAGE_nfs-kernel-server-v4=y
-CONFIG_PACKAGE_nfs-utils=y
 CONFIG_PACKAGE_nginx-full=y
 CONFIG_PACKAGE_nginx-mod-brotli=y
 CONFIG_PACKAGE_nginx-mod-dav-ext=y
