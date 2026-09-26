@@ -1,6 +1,6 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.5.2-r3
-base-files - 1706~e8ca976eff
+base-files - 1706~ea78c9d915
 bash - 5.3-r5
 block-mount - 2026.07.25~2aa16407-r1
 bnx2-firmware - 20260910-r2
@@ -151,7 +151,7 @@ libcurl4 - 8.22.0-r1
 libdevmapper - 1.02.216
 libdnet - 1.16.1-r1
 libe2p2 - 1.47.4-r1
-libelf1 - 0.195-r2
+libelf1 - 0.196-r1
 libevent2-core7 - 2.1.12-r2
 libext2fs2 - 1.47.4-r1
 libf2fs6 - 1.16.0-r4
@@ -231,7 +231,7 @@ luci-proto-ppp - 26.266.57128~f4f91ae
 luci-theme-bootstrap - 26.266.57128~f4f91ae
 mihomo-alpha - 2026.09.25~f103639
 mkf2fs - 1.16.0-r4
-mtd - 28
+mtd - 29
 netifd - 2026.09.11~06d06c86-r1
 nfs-kernel-server-v4 - 2.9.1-r1
 nftables-json - 1.1.6-r4
@@ -253,9 +253,9 @@ parted - 3.6-r2
 partx-utils - 2.42.2-r1
 ppp - 2.5.3-r2
 ppp-mod-pppoe - 2.5.3-r2
-procd - 2026.09.22~6af440ae-r1
-procd-seccomp - 2026.09.22~6af440ae-r1
-procd-ujail - 2026.09.22~6af440ae-r1
+procd - 2026.09.26~a6f9ffd4-r1
+procd-seccomp - 2026.09.26~a6f9ffd4-r1
+procd-ujail - 2026.09.26~a6f9ffd4-r1
 r8169-firmware - 20260910-r2
 rpcbind - 1.2.6-r2
 rpcd - 2026.07.19~e37ed9d8-r1
