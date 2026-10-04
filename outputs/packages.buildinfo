@@ -1,6 +1,6 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.5.2-r3
-base-files - 1709~1eaea67aef
+base-files - 1709~81919eb7e4
 bash - 5.3-r5
 block-mount - 2026.07.25~2aa16407-r1
 bnx2-firmware - 20260910-r2
@@ -184,9 +184,9 @@ libnl-nf200 - 3.12.0-r2
 libnl-route200 - 3.12.0-r2
 libnl-tiny1 - 2025.12.02~40493a65-r1
 libnl200 - 3.12.0-r2
-libopenssl3 - 3.5.8-r3
+libopenssl3 - 3.5.9-r1
 libparted - 3.6-r2
-libpcre2 - 10.47-r1
+libpcre2 - 10.49-r2
 libpopt0 - 1.19-r1
 libpthread - 1.2.6-r5
 libreadline8 - 8.3-r1
@@ -258,12 +258,12 @@ procd-seccomp - 2026.09.27~675942be-r1
 procd-ujail - 2026.09.27~675942be-r1
 r8169-firmware - 20260910-r2
 rpcbind - 1.2.6-r2
-rpcd - 2026.09.25~a6c6b63b-r1
-rpcd-mod-file - 2026.09.25~a6c6b63b-r1
-rpcd-mod-iwinfo - 2026.09.25~a6c6b63b-r1
+rpcd - 2026.10.04~d99f703e-r1
+rpcd-mod-file - 2026.10.04~d99f703e-r1
+rpcd-mod-iwinfo - 2026.10.04~d99f703e-r1
 rpcd-mod-luci - 20240305-r1
 rpcd-mod-rrdns - 20170710
-rpcd-mod-ucode - 2026.09.25~a6c6b63b-r1
+rpcd-mod-ucode - 2026.10.04~d99f703e-r1
 rsync - 3.5.1-r1
 rsyncd - 3.5.1-r1
 samba4-libs - 4.24.5-r1
