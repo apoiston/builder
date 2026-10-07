@@ -1,6 +1,6 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.5.2-r3
-base-files - 1710~c459c71c4a
+base-files - 1710~5888bd8c57
 bash - 5.3-r5
 block-mount - 2026.07.25~2aa16407-r1
 bnx2-firmware - 20260910-r2
@@ -30,7 +30,7 @@ ip-full - 6.18.0-r2
 jansson4 - 2.15.0-r1
 jshn - 2026.07.21~e7608b69-r1
 jsonfilter - 2026.03.16~b9034210-r1
-kernel - 6.18.55~59e2c9f92d1d9f3fd950d677ebe4172b-r1
+kernel - 6.18.55~e82201b740636ef1b990b8ac5068aa44-r1
 kmod-acpi-video - 6.18.55-r1
 kmod-amazon-ena - 6.18.55-r1
 kmod-amd-xgbe - 6.18.55-r1
@@ -69,12 +69,6 @@ kmod-dummy - 6.18.55-r1
 kmod-dwmac-intel - 6.18.55-r1
 kmod-e1000 - 6.18.55-r1
 kmod-e1000e - 6.18.55-r1
-kmod-fb - 6.18.55-r1
-kmod-fb-cfb-copyarea - 6.18.55-r1
-kmod-fb-cfb-fillrect - 6.18.55-r1
-kmod-fb-cfb-imgblt - 6.18.55-r1
-kmod-fb-sys-fops - 6.18.55-r1
-kmod-fb-sys-ram - 6.18.55-r1
 kmod-forcedeth - 6.18.55-r1
 kmod-fs-exportfs - 6.18.55-r1
 kmod-fs-nfs - 6.18.55-r1
@@ -323,6 +317,6 @@ uwsgi-syslog-plugin - 2.0.30-r1
 video-support - 2
 wget-ssl - 1.25.0-r5
 yq - 4.53.6-r1
-zlib - 2.3.3-r1
+zlib - 2.3.3-r2
 zoneinfo-asia - 2026e-r1
 zoneinfo-core - 2026e-r1
