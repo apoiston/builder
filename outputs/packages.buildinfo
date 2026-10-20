@@ -1,5 +1,5 @@
 apk-mbedtls - 3.0.5-r4
-attr - 2.5.2-r3
+attr - 2.6.0-r1
 base-files - 1718~4e16c2ed8f
 bash - 5.3-r5
 block-mount - 2026.07.25~2aa16407-r1
@@ -136,8 +136,8 @@ kmod-tg3 - 7.3-r1
 kmod-tpm - 7.3-r1
 kmod-tun - 7.3-r1
 kmod-vmxnet3 - 7.3-r1
-libacl - 2.3.2-r2
-libattr - 2.5.2-r3
+libacl - 2.4.0-r1
+libattr - 2.6.0-r1
 libblkid1 - 2.42.2-r1
 libblobmsg-json20260721 - 2026.07.21~e7608b69-r1
 libbpf1 - 1.8.0-r1
