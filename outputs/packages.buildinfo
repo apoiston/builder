@@ -1,6 +1,6 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.5.2-r3
-base-files - 1718~a4e922953c
+base-files - 1718~4e16c2ed8f
 bash - 5.3-r5
 block-mount - 2026.07.25~2aa16407-r1
 bnx2-firmware - 20260916-r1
@@ -10,7 +10,7 @@ ca-certificates - 20260816-r1
 caddy - 2.11.7-r1
 cgi-io - 2026.07.21~31cb3c89-r1
 curl - 8.23.0-r1
-dnsmasq-full - 2.93-r4
+dnsmasq-full - 2.93-r5
 dropbear - 2026.94-r3
 e2fsprogs - 1.47.4-r1
 firewall4 - 2025.03.17~b6e51575-r2
