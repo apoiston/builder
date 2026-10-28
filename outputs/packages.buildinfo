@@ -1,6 +1,6 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.6.0-r1
-base-files - 1718~7d0bf92bee
+base-files - 1718~7cd9ef1f22
 bash - 5.3-r5
 block-mount - 2026.10.18~907cf449-r1
 bnx2-firmware - 20261019-r1
@@ -26,7 +26,7 @@ grub2-bios-setup - 2.16-r1
 grub2-efi - 2.16-r1
 htop - 3.5.3-r1
 i915-firmware-dmc - 20261019-r1
-ip-full - 6.18.0-r2
+ip-full - 7.3.0-r1
 jansson4 - 2.15.1-r1
 jshn - 2026.07.21~e7608b69-r1
 jsonfilter - 2026.03.16~b9034210-r1
