@@ -1,3 +1,5 @@
+[![Build Status](https://github.com/apoiston/builder/actions/workflows/build.yml/badge.svg)](https://github.com/apoiston/builder/actions/workflows/build.yml) [![GitHub release](https://img.shields.io/github/v/release/apoiston/builder)](https://github.com/apoiston/builder/releases)
+
 # OpenWrt
 
 ## Basic Information
