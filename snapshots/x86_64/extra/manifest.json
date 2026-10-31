@@ -1,0 +1,153 @@
+{
+  "packages": [
+    {
+      "name": "caddy",
+      "version": "2.11.7-r1",
+      "hashes": "6b9bf6a31151ef309541ff596249169bdbdf1f0addc210503a200e9f5de6b718",
+      "description": "A file server built using Caddy.",
+      "arch": "x86_64",
+      "license": "Apache-2.0",
+      "origin": "feeds/base/feeds/extra/caddy/caddy",
+      "maintainer": "apois",
+      "url": "https://caddyserver.com/",
+      "installed-size": 56864326,
+      "file-size": 19533231,
+      "depends": [
+        "ca-certificates",
+        "libc"
+      ],
+      "provides": [
+        "caddy-any"
+      ],
+      "tags": [
+        "openwrt:section=net"
+      ]
+    }, {
+      "name": "luci-app-nikki",
+      "version": "1.26.2-r1",
+      "hashes": "a1fcf73dc6743fb75afb34038f924f6587db386c7ab6aecac80b2e3ee498fdba",
+      "description": "LuCI Support for nikki",
+      "arch": "noarch",
+      "origin": "feeds/base/feeds/extra/nikki/luci-app-nikki",
+      "maintainer": "OpenWrt LuCI community",
+      "url": "https://github.com/openwrt/luci",
+      "installed-size": 47105,
+      "file-size": 11127,
+      "depends": [
+        "libc",
+        "luci-base",
+        "nikki"
+      ],
+      "provides": [
+        "luci-app-nikki-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "luci-i18n-nikki-zh-cn",
+      "version": "26.303.30488~bd14926",
+      "hashes": "9b7c3b1ec55d81add98ca556ae99c90b4ce6b36ef5c879b03deec3e48a0ef3f6",
+      "description": "Translation for luci-app-nikki - 简体中文 (Simplified Chinese)",
+      "arch": "noarch",
+      "origin": "feeds/base/feeds/extra/nikki/luci-app-nikki",
+      "installed-size": 8073,
+      "file-size": 5147,
+      "depends": [
+        "libc",
+        "luci-app-nikki"
+      ],
+      "provides": [
+        "luci-i18n-nikki-zh-cn-any"
+      ],
+      "tags": [
+        "openwrt:section=luci"
+      ]
+    }, {
+      "name": "mihomo-alpha",
+      "version": "2026.10.30~69c1631",
+      "hashes": "62c23c6b37789a83d22077a9c5d14ca81bf62a064c20f64c7ecadbaa8cfed15d",
+      "description": "A rule based proxy in Go.",
+      "arch": "x86_64",
+      "license": "GPL3.0+",
+      "origin": "feeds/base/feeds/extra/nikki/mihomo-alpha",
+      "maintainer": "Joseph Mory <morytyann@gmail.com>",
+      "url": "https://wiki.metacubex.one",
+      "installed-size": 61332212,
+      "file-size": 22643020,
+      "depends": [
+        "ca-bundle",
+        "ip-full",
+        "kmod-inet-diag",
+        "kmod-tun",
+        "libc"
+      ],
+      "provides": [
+        "mihomo=2026.10.30~69c1631",
+        "mihomo-alpha-any"
+      ],
+      "tags": [
+        "openwrt:section=net"
+      ]
+    }, {
+      "name": "mihomo-meta",
+      "version": "1.19.33",
+      "hashes": "4b173fb836cb5de4acb88554b60395c44585c8f266d73ee92756cbfb95298381",
+      "description": "A rule based proxy in Go.",
+      "arch": "x86_64",
+      "license": "GPL3.0+",
+      "origin": "feeds/base/feeds/extra/nikki/mihomo-meta",
+      "maintainer": "Joseph Mory <morytyann@gmail.com>",
+      "url": "https://wiki.metacubex.one",
+      "installed-size": 61306929,
+      "file-size": 22632660,
+      "provider-priority": 100,
+      "depends": [
+        "ca-bundle",
+        "ip-full",
+        "kmod-inet-diag",
+        "kmod-tun",
+        "libc"
+      ],
+      "provides": [
+        "mihomo=1.19.33",
+        "mihomo-meta-any"
+      ],
+      "tags": [
+        "openwrt:section=net"
+      ]
+    }, {
+      "name": "nikki",
+      "version": "2026.10.10-r1",
+      "hashes": "800b7a275638c85222fc4f55f6237f7159fbd919752ba4d1bd0cdd6cbc07da7e",
+      "description": "Transparent Proxy with Mihomo on OpenWrt.",
+      "arch": "x86_64",
+      "license": "GPL3.0+",
+      "origin": "feeds/base/feeds/extra/nikki/nikki",
+      "maintainer": "Joseph Mory <morytyann@gmail.com>",
+      "url": "https://github.com/nikkinikki-org",
+      "installed-size": 279696,
+      "file-size": 53405,
+      "depends": [
+        "ca-bundle",
+        "curl",
+        "firewall4",
+        "ip-full",
+        "kmod-dummy",
+        "kmod-inet-diag",
+        "kmod-nft-socket",
+        "kmod-nft-tproxy",
+        "kmod-tun",
+        "libc",
+        "mihomo",
+        "yq"
+      ],
+      "provides": [
+        "nikki-any"
+      ],
+      "tags": [
+        "openwrt:section=net"
+      ]
+    }
+  ]
+}
