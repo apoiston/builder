@@ -1,6 +1,6 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.6.0-r1
-base-files - 1719~5799d2da76
+base-files - 1719~554f401d6b
 bash - 5.3-r5
 block-mount - 2026.10.18~907cf449-r1
 bnx2-firmware - 20261019-r1
@@ -10,7 +10,7 @@ ca-certificates - 20260816-r2
 caddy - 2.11.7-r1
 cgi-io - 2026.07.21~31cb3c89-r1
 curl - 8.23.0-r1
-dnsmasq-full - 2.93-r9
+dnsmasq-full - 2.93-r10
 dropbear - 2026.94-r3
 e2fsprogs - 1.47.4-r1
 firewall4 - 2026.10.29~e6f600c4-r1
@@ -212,7 +212,7 @@ luci-app-package-manager - 26.304.33642~5599f42
 luci-base - 26.304.33642~5599f42
 luci-i18n-base-zh-cn - 26.304.33642~5599f42
 luci-i18n-firewall-zh-cn - 26.304.33642~5599f42
-luci-i18n-nikki-zh-cn - 26.303.30488~bd14926
+luci-i18n-nikki-zh-cn - 26.305.14167~e452695
 luci-i18n-package-manager-zh-cn - 26.304.33642~5599f42
 luci-lib-uqr - 26.304.33642~5599f42
 luci-mod-admin-full - 26.304.33642~5599f42
@@ -247,9 +247,9 @@ parted - 3.6-r2
 partx-utils - 2.42.2-r1
 ppp - 2.5.4-r6
 ppp-mod-pppoe - 2.5.4-r6
-procd - 2026.10.18~5aef7c33-r1
-procd-seccomp - 2026.10.18~5aef7c33-r1
-procd-ujail - 2026.10.18~5aef7c33-r1
+procd - 2026.11.01~0d3c5dc1-r1
+procd-seccomp - 2026.11.01~0d3c5dc1-r1
+procd-ujail - 2026.11.01~0d3c5dc1-r1
 r8169-firmware - 20261019-r1
 rpcbind - 1.2.6-r2
 rpcd - 2026.10.28~469d7852-r1
