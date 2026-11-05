@@ -1,13 +1,13 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.6.0-r1
-base-files - 1720~39e77cc05d
+base-files - 1722~b455c5b851
 bash - 5.3-r5
 block-mount - 2026.10.18~907cf449-r1
 bnx2-firmware - 20261019-r1
 busybox - 1.38.0-r4
 ca-bundle - 20260816-r2
 ca-certificates - 20260816-r2
-caddy - 2.11.8-r1
+caddy - 2.11.9-r1
 cgi-io - 2026.07.21~31cb3c89-r1
 curl - 8.23.0-r1
 dnsmasq-full - 2.93-r12
@@ -319,5 +319,5 @@ video-support - 2
 wget-ssl - 1.25.0-r5
 yq - 4.54.1-r1
 zlib - 2.3.3-r2
-zoneinfo-asia - 2026e-r1
-zoneinfo-core - 2026e-r1
+zoneinfo-asia - 2026f-r1
+zoneinfo-core - 2026f-r1
