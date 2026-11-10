@@ -1,6 +1,6 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.6.0-r1
-base-files - 1723~7edc67adad
+base-files - 1723~3d5a743f1f
 bash - 5.3-r5
 block-mount - 2026.10.18~907cf449-r1
 bnx2-firmware - 20261019-r1
@@ -246,8 +246,8 @@ openssh-sftp-server - 10.6_p2-r1
 openwrt-keyring - 2025.12.10~f0670054-r1
 parted - 3.6-r2
 partx-utils - 2.42.2-r1
-ppp - 2.5.4-r7
-ppp-mod-pppoe - 2.5.4-r7
+ppp - 2.5.5-r1
+ppp-mod-pppoe - 2.5.5-r1
 procd - 2026.11.03~fb611687-r2
 procd-seccomp - 2026.11.03~fb611687-r2
 procd-ujail - 2026.11.03~fb611687-r2
@@ -259,8 +259,8 @@ rpcd-mod-iwinfo - 2026.10.28~469d7852-r1
 rpcd-mod-luci - 20240305-r1
 rpcd-mod-rrdns - 20170710
 rpcd-mod-ucode - 2026.10.28~469d7852-r1
-rsync - 3.5.1-r1
-rsyncd - 3.5.1-r1
+rsync - 3.5.2-r1
+rsyncd - 3.5.2-r1
 samba4-libs - 4.24.5-r1
 samba4-server - 4.24.5-r1
 shadow - 4.20.2-r1
