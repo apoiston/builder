@@ -1,8 +1,8 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.6.0-r1
-base-files - 1723~d5629bba98
+base-files - 1723~e2ed57b957
 bash - 5.3-r5
-block-mount - 2026.10.18~907cf449-r1
+block-mount - 2026.11.07~5e371ecf-r1
 bnx2-firmware - 20261019-r1
 busybox - 1.38.0-r5
 ca-bundle - 20260816-r2
@@ -14,7 +14,7 @@ dnsmasq-full - 2.93-r12
 dropbear - 2026.94-r3
 e2fsprogs - 1.47.4-r1
 firewall4 - 2026.11.08~3722eadc-r1
-fstools - 2026.10.18~907cf449-r1
+fstools - 2026.11.07~5e371ecf-r1
 fwtool - 2025.10.03~04cd252e-r1
 getrandom - 2025.10.30~6f78fa49-r1
 glib2-core - 2.88.1-r1
@@ -224,7 +224,7 @@ luci-nginx - 26.316.56866~326145c
 luci-proto-ipv6 - 26.316.56866~326145c
 luci-proto-ppp - 26.316.56866~326145c
 luci-theme-bootstrap - 26.316.56866~326145c
-mihomo-alpha - 2026.11.12~12b81d4
+mihomo-alpha - 2026.11.14~4c57a4a
 mkf2fs - 1.16.0-r4
 mtd - 29
 netifd - 2026.10.28~a1e39a45-r1
