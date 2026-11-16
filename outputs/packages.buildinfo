@@ -1,6 +1,6 @@
 apk-mbedtls - 3.0.5-r4
 attr - 2.6.0-r1
-base-files - 1723~7b46f9593e
+base-files - 1723~7424e2ca30
 bash - 5.3-r5
 block-mount - 2026.11.07~5e371ecf-r1
 bnx2-firmware - 20261019-r1
@@ -16,7 +16,7 @@ e2fsprogs - 1.47.4-r1
 firewall4 - 2026.11.08~3722eadc-r1
 fstools - 2026.11.07~5e371ecf-r1
 fwtool - 2025.10.03~04cd252e-r1
-getrandom - 2025.10.30~6f78fa49-r1
+getrandom - 2026.11.15~b0635f42-r1
 glib2-core - 2.88.1-r1
 glib2-gmodule - 2.88.1-r1
 glib2-gobject - 2.88.1-r1
@@ -205,7 +205,7 @@ libuuid1 - 2.42.2-r1
 libwrap - 7.6-r4
 libxml2-16 - 2.15.4-r1
 libxxhash - 0.8.4-r1
-logd - 2025.10.30~6f78fa49-r1
+logd - 2026.11.15~b0635f42-r1
 lsblk - 2.42.2-r1
 luci-app-firewall - 26.318.41138~85c7f60
 luci-app-nikki - 1.26.2-r1
@@ -224,7 +224,7 @@ luci-nginx - 26.318.41138~85c7f60
 luci-proto-ipv6 - 26.318.41138~85c7f60
 luci-proto-ppp - 26.318.41138~85c7f60
 luci-theme-bootstrap - 26.318.41138~85c7f60
-mihomo-alpha - 2026.11.14~184857c
+mihomo-alpha - 2026.11.15~3c0d10a
 mkf2fs - 1.16.0-r4
 mtd - 29
 netifd - 2026.10.28~a1e39a45-r1
@@ -295,7 +295,7 @@ shadow-usermod - 4.20.2-r1
 shadow-utils - 4.20.2-r1
 shadow-vipw - 4.20.2-r1
 terminfo - 6.6.20260801-r2
-ubox - 2025.10.30~6f78fa49-r1
+ubox - 2026.11.15~b0635f42-r1
 ubus - 2026.10.28~db20eff5-r1
 ubusd - 2026.10.28~db20eff5-r1
 uci - 2025.12.02~66127cd7-r1
